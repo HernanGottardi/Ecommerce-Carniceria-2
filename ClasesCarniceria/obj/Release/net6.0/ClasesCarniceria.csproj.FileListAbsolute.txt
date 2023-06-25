@@ -1,0 +1,12 @@
+C:\Users\herni\Documents\proyectos-utn\Carniceria\ClasesCarniceria\bin\Release\net6.0\ClasesCarniceria.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\ClasesCarniceria\bin\Release\net6.0\ClasesCarniceria.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\ClasesCarniceria\bin\Release\net6.0\ClasesCarniceria.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\ClasesCarniceria\obj\Release\net6.0\ClasesCarniceria.csproj.AssemblyReference.cache
+C:\Users\herni\Documents\proyectos-utn\Carniceria\ClasesCarniceria\obj\Release\net6.0\ClasesCarniceria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Documents\proyectos-utn\Carniceria\ClasesCarniceria\obj\Release\net6.0\ClasesCarniceria.AssemblyInfoInputs.cache
+C:\Users\herni\Documents\proyectos-utn\Carniceria\ClasesCarniceria\obj\Release\net6.0\ClasesCarniceria.AssemblyInfo.cs
+C:\Users\herni\Documents\proyectos-utn\Carniceria\ClasesCarniceria\obj\Release\net6.0\ClasesCarniceria.csproj.CoreCompileInputs.cache
+C:\Users\herni\Documents\proyectos-utn\Carniceria\ClasesCarniceria\obj\Release\net6.0\ClasesCarniceria.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\ClasesCarniceria\obj\Release\net6.0\refint\ClasesCarniceria.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\ClasesCarniceria\obj\Release\net6.0\ClasesCarniceria.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\ClasesCarniceria\obj\Release\net6.0\ref\ClasesCarniceria.dll

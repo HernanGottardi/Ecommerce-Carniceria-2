@@ -1,0 +1,78 @@
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\formularios.FrmSerializarCliente.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.AssemblyInfo.cs
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.csproj.CopyComplete
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\refint\FrmSerializarCliente.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.genruntimeconfig.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\ref\FrmSerializarCliente.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\formularios.FrmSerializarCliente.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.AssemblyInfo.cs
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.csproj.CopyComplete
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\refint\FrmSerializarCliente.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.genruntimeconfig.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmSerializarCliente\obj\Debug\net6.0-windows\ref\FrmSerializarCliente.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\bin\Debug\net6.0-windows\FrmSerializarCliente.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\obj\Debug\net6.0-windows\formularios.FrmSerializarCliente.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.AssemblyInfo.cs
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.csproj.CopyComplete
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\obj\Debug\net6.0-windows\refint\FrmSerializarCliente.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\obj\Debug\net6.0-windows\FrmSerializarCliente.genruntimeconfig.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmSerializarCliente\obj\Debug\net6.0-windows\ref\FrmSerializarCliente.dll

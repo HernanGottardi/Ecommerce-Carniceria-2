@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FrmElegirProducto/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0",
+          "FrmFactura": "1.0.0"
+        },
+        "runtime": {
+          "FrmElegirProducto.dll": {}
+        }
+      },
+      "ClasesCarniceria/1.0.0": {
+        "runtime": {
+          "ClasesCarniceria.dll": {}
+        }
+      },
+      "FrmFactura/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "runtime": {
+          "FrmFactura.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FrmElegirProducto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClasesCarniceria/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmFactura/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

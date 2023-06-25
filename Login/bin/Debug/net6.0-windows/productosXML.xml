@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCarne xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Carne>
+    <CantidadKilos>10</CantidadKilos>
+    <TipoDeCorte>Lomo</TipoDeCorte>
+    <PrecioPorKilo>400</PrecioPorKilo>
+  </Carne>
+  <Carne>
+    <CantidadKilos>12</CantidadKilos>
+    <TipoDeCorte>Tira de Asado</TipoDeCorte>
+    <PrecioPorKilo>1200</PrecioPorKilo>
+  </Carne>
+  <Carne>
+    <CantidadKilos>30</CantidadKilos>
+    <TipoDeCorte>Bife ancho</TipoDeCorte>
+    <PrecioPorKilo>200</PrecioPorKilo>
+  </Carne>
+  <Carne>
+    <CantidadKilos>10</CantidadKilos>
+    <TipoDeCorte>Falda</TipoDeCorte>
+    <PrecioPorKilo>300</PrecioPorKilo>
+  </Carne>
+  <Carne>
+    <CantidadKilos>5</CantidadKilos>
+    <TipoDeCorte>Cola de cuadril</TipoDeCorte>
+    <PrecioPorKilo>500</PrecioPorKilo>
+  </Carne>
+</ArrayOfCarne>

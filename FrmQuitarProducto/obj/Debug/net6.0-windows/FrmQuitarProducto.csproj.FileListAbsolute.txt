@@ -1,0 +1,118 @@
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.AssemblyReference.cache
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\obj\Debug\net6.0-windows\formularios.FrmQuitarProducto.resources
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.GenerateResource.cache
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.AssemblyInfoInputs.cache
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.AssemblyInfo.cs
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.CoreCompileInputs.cache
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.CopyComplete
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\obj\Debug\net6.0-windows\refint\FrmQuitarProducto.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.genruntimeconfig.cache
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarProducto\obj\Debug\net6.0-windows\ref\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.exe
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.deps.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\obj\Debug\net6.0-windows\formularios.FrmQuitarProducto.resources
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.AssemblyInfo.cs
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.CopyComplete
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\obj\Debug\net6.0-windows\refint\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.genruntimeconfig.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarProducto\obj\Debug\net6.0-windows\ref\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\formularios.FrmQuitarProducto.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.AssemblyInfo.cs
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.CopyComplete
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\refint\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.genruntimeconfig.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\ref\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\formularios.FrmQuitarProducto.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.AssemblyInfo.cs
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.CopyComplete
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\refint\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.genruntimeconfig.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\FrmQuitarProducto\obj\Debug\net6.0-windows\ref\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\bin\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\obj\Debug\net6.0-windows\formularios.FrmQuitarProducto.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.AssemblyInfo.cs
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.csproj.CopyComplete
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\obj\Debug\net6.0-windows\refint\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\obj\Debug\net6.0-windows\FrmQuitarProducto.genruntimeconfig.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmQuitarProducto\obj\Debug\net6.0-windows\ref\FrmQuitarProducto.dll

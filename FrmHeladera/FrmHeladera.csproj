@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClasesCarniceria\ClasesCarniceria.csproj" />
+    <ProjectReference Include="..\FrmAgregarCorte\FrmAgregarCorte.csproj" />
+    <ProjectReference Include="..\FrmAgregarProducto\FrmAgregarProducto.csproj" />
+    <ProjectReference Include="..\FrmHistorial\FrmHistorial.csproj" />
+    <ProjectReference Include="..\FrmModificarCorte\FrmModificarCorte.csproj" />
+    <ProjectReference Include="..\FrmModificarProducto\FrmModificarProducto.csproj" />
+    <ProjectReference Include="..\FrmQuitarCorte\FrmQuitarCorte.csproj" />
+    <ProjectReference Include="..\FrmQuitarProducto\FrmQuitarProducto.csproj" />
+    <ProjectReference Include="..\FrmSerializarCliente\FrmSerializarCliente.csproj" />
+    <ProjectReference Include="..\FrmSerializarProducto\FrmSerializarProducto.csproj" />
+  </ItemGroup>
+
+</Project>

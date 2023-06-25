@@ -1,0 +1,428 @@
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.AssemblyReference.cache
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.AssemblyInfoInputs.cache
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.AssemblyInfo.cs
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.CoreCompileInputs.cache
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmHeladera.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmHeladera.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmHistorial.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmHistorial.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmHistorial.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarProducto.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarProducto.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarProducto.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmHeladera.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmVenta.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmVenta.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmElegirProducto.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmElegirProducto.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmFactura.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmFactura.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmFactura.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmElegirProducto.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmVenta.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmLogin.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmLogin.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmLogin.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmLogin.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmLogin.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmElegirProducto.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmFactura.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmHeladera.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmHistorial.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarProducto.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmVenta.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmHeladera.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmVenta.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmElegirProducto.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmFactura.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmHistorial.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarProducto.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.CopyComplete
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\refint\FrmLogin.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.pdb
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.genruntimeconfig.cache
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\ref\FrmLogin.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.Properties.Resources.resources
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.GenerateResource.cache
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\formularios.FrmLogin.resources
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarCorte.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarCorte.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarCorte.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarCorte.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarCorte.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmHeladera.deps.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmHeladera.runtimeconfig.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.deps.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.runtimeconfig.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.exe
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.deps.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.exe
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmHistorial.deps.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmHistorial.runtimeconfig.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmHistorial.exe
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmModificarCorte.deps.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmModificarCorte.runtimeconfig.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmModificarCorte.exe
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmModificarProducto.deps.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmModificarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmModificarProducto.exe
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.deps.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.runtimeconfig.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.exe
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.deps.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.exe
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmHeladera.exe
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmVenta.deps.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmVenta.runtimeconfig.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmElegirProducto.deps.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmElegirProducto.runtimeconfig.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmFactura.deps.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmFactura.runtimeconfig.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmFactura.exe
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmElegirProducto.exe
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmVenta.exe
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmLogin.exe
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmLogin.deps.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmLogin.runtimeconfig.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmLogin.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmLogin.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmElegirProducto.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmFactura.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmHeladera.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmHistorial.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmModificarCorte.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmModificarProducto.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmVenta.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmHeladera.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmVenta.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmElegirProducto.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmFactura.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmHistorial.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmModificarCorte.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmModificarProducto.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\obj\Debug\net6.0-windows\formularios.FrmLogin.resources
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\obj\Debug\net6.0-windows\FrmLogin.Properties.Resources.resources
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\obj\Debug\net6.0-windows\FrmLogin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\obj\Debug\net6.0-windows\FrmLogin.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\obj\Debug\net6.0-windows\FrmLogin.AssemblyInfo.cs
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.CopyComplete
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\obj\Debug\net6.0-windows\FrmLogin.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\obj\Debug\net6.0-windows\refint\FrmLogin.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\obj\Debug\net6.0-windows\FrmLogin.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\obj\Debug\net6.0-windows\FrmLogin.genruntimeconfig.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\Login\obj\Debug\net6.0-windows\ref\FrmLogin.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\obj\Debug\net6.0-windows\formularios.FrmLogin.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.Properties.Resources.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.AssemblyInfo.cs
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\obj\Debug\net6.0-windows\refint\FrmLogin.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmHeladera.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmHeladera.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmHistorial.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmHistorial.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmHistorial.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarCorte.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarCorte.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarCorte.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmHeladera.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmVenta.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmVenta.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmElegirProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmElegirProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmFactura.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmFactura.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmFactura.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmElegirProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmVenta.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmLogin.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmLogin.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmLogin.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmLogin.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmLogin.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmElegirProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmFactura.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmHeladera.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmHistorial.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarCorte.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmVenta.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmHeladera.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmVenta.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmElegirProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmFactura.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmHistorial.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarCorte.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.CopyComplete
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.genruntimeconfig.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\obj\Debug\net6.0-windows\ref\FrmLogin.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-PP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmHeladera.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmHeladera.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmHistorial.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmHistorial.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmHistorial.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarCorte.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarCorte.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarCorte.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmHeladera.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmVenta.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmVenta.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmElegirProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmElegirProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmFactura.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmFactura.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmFactura.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmElegirProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmVenta.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmLogin.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmLogin.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmLogin.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmLogin.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmLogin.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmElegirProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmFactura.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmHeladera.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmHistorial.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarCorte.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmVenta.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmHeladera.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmVenta.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmElegirProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmFactura.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmHistorial.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarCorte.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmModificarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\obj\Debug\net6.0-windows\formularios.FrmLogin.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.Properties.Resources.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.AssemblyInfo.cs
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.CopyComplete
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\obj\Debug\net6.0-windows\refint\FrmLogin.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\obj\Debug\net6.0-windows\FrmLogin.genruntimeconfig.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main\Login\obj\Debug\net6.0-windows\ref\FrmLogin.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmHeladera.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmHeladera.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmHistorial.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmHistorial.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmHistorial.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarCorte.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarCorte.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarCorte.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmHeladera.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmVenta.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmVenta.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmElegirProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmElegirProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmFactura.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmFactura.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmFactura.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmElegirProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmVenta.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmLogin.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmLogin.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmLogin.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmLogin.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmLogin.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmElegirProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmFactura.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmHeladera.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmHistorial.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarCorte.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmVenta.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmHeladera.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmVenta.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmAgregarCorte.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmAgregarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmElegirProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmFactura.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmHistorial.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarCorte.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmQuitarCorte.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmQuitarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmSerializarCliente.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmSerializarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\formularios.FrmLogin.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\FrmLogin.Properties.Resources.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\FrmLogin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\FrmLogin.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\FrmLogin.AssemblyInfo.cs
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.CopyComplete
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\FrmLogin.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\refint\FrmLogin.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\FrmLogin.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\FrmLogin.genruntimeconfig.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\ref\FrmLogin.dll

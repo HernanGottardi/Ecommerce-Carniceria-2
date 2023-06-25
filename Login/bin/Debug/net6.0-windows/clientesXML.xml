@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cliente>
+    <Contraseña>chau123</Contraseña>
+    <Mail>maradona@gmail.com</Mail>
+    <CantidadDinero>2000</CantidadDinero>
+  </Cliente>
+  <Cliente>
+    <Contraseña>quetal123</Contraseña>
+    <Mail>felipe@gmail.com</Mail>
+    <CantidadDinero>2000</CantidadDinero>
+  </Cliente>
+  <Cliente>
+    <Contraseña>rock123</Contraseña>
+    <Mail>hernan@gmail.com</Mail>
+    <CantidadDinero>2000</CantidadDinero>
+  </Cliente>
+  <Cliente>
+    <Contraseña>hola123</Contraseña>
+    <Mail>ppArgento@gmail.com</Mail>
+    <CantidadDinero>2000</CantidadDinero>
+  </Cliente>
+  <Cliente>
+    <Contraseña>12345678</Contraseña>
+    <Mail>nora@gmail.com</Mail>
+    <CantidadDinero>2000</CantidadDinero>
+  </Cliente>
+</ArrayOfCliente>
