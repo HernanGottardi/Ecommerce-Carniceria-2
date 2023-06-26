@@ -193,6 +193,7 @@
             modificarMontoToolStripMenuItem.Name = "modificarMontoToolStripMenuItem";
             modificarMontoToolStripMenuItem.Size = new Size(283, 26);
             modificarMontoToolStripMenuItem.Text = "Modificar Monto";
+            modificarMontoToolStripMenuItem.Click += modificarMontoToolStripMenuItem_Click;
             // 
             // modificarContraseñaToolStripMenuItem
             // 

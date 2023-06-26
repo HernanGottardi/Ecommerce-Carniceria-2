@@ -22,26 +22,26 @@ namespace formularios
 
         private void btn_modificar_Click(object sender, EventArgs e)
         {
-            string correoNuevo = txb_nuevoMail.Text;
+            string nuevoCorreo = txb_nuevoMail.Text;
             Vendedor v = new Vendedor();
             try
             {
-                if (v.MailClienteExiste(correoNuevo))
+                if (v.MailClienteExiste(nuevoCorreo))
                 {
-                    MessageBox.Show("El Correo Electronico ingresado ya existe!");
+                    MessageBox.Show("El Correo Electrónico ingresado ya existe!");
                 }
                 else
                 {
-                    if (correoNuevo.ValidarCorreoElectronico())
+                    if (nuevoCorreo.ValidarCorreoElectronico())
                     {
-                        if (DB_Cliente.Modificar_mail_cliente(correoNuevo, correoActual))
+                        if (DB_Cliente.Modificar_mail_cliente(nuevoCorreo, correoActual))
                         {
-                            this.MostrarMailActual();
+                            correoNuevo = nuevoCorreo;
                             this.DialogResult = DialogResult.OK;
                         }
                         else
                         {
-                            MessageBox.Show("El nuevo Correo Electronico no se pudo guardar.");
+                            MessageBox.Show("El nuevo Correo Electrónico no se pudo guardar.");
                         }
                     }
                 }

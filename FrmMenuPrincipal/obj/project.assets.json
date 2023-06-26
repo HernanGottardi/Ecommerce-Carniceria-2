@@ -199,7 +199,8 @@
         "dependencies": {
           "ClasesCarniceria": "1.0.0",
           "FrmFactura": "1.0.0",
-          "FrmModificarMail": "1.0.0"
+          "FrmModificarMail": "1.0.0",
+          "FrmModificarMonto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/FrmElegirProducto.dll": {}
@@ -313,6 +314,22 @@
         },
         "runtime": {
           "bin/placeholder/FrmModificarMail.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FrmModificarMonto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmModificarMonto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmModificarMonto.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -795,6 +812,11 @@
       "type": "project",
       "path": "../FrmDatosUsuario/FrmModificarMail.csproj",
       "msbuildProject": "../FrmDatosUsuario/FrmModificarMail.csproj"
+    },
+    "FrmModificarMonto/1.0.0": {
+      "type": "project",
+      "path": "../FrmModificarMonto/FrmModificarMonto.csproj",
+      "msbuildProject": "../FrmModificarMonto/FrmModificarMonto.csproj"
     },
     "FrmModificarProducto/1.0.0": {
       "type": "project",

@@ -10,6 +10,10 @@ namespace formularios
 
         // 1
         private Thread hiloActualizacionMonto;
+
+        public string Mail { get => mail; set => mail = value; }
+        public decimal Monto { get => monto; set => monto = value; }
+
         // 2
         public event EventHandler MontoActualizado;
 
@@ -25,8 +29,8 @@ namespace formularios
 
         public FrmElegirProducto(decimal monto, string mail) : this()
         {
-            this.monto = monto;
-            this.mail = mail;
+            this.Monto = monto;
+            this.Mail = mail;
         }
 
 
@@ -63,7 +67,7 @@ namespace formularios
             }
             else
             {
-                lb_montoActual.Text = "Monto actual: $" + monto.ToString();
+                lb_montoActual.Text = "Monto actual: $" + Monto.ToString();
             }
 
         }
@@ -189,9 +193,9 @@ namespace formularios
                 Carne carneSelec = Carniceria.BuscarCarnePorCorte(tipoCorte);
 
                 Vendedor v = new Vendedor();
-                Cliente clienteSelec = v.BuscarClientePorMail(this.mail);
+                Cliente clienteSelec = v.BuscarClientePorMail(this.Mail);
                 // Los clientes traen un valor por defecto que debe ser modificado por el monto que ingreso el usuario. 
-                clienteSelec.CantidadDinero = this.monto;
+                clienteSelec.CantidadDinero = this.Monto;
 
 
                 if (carneSelec != null && clienteSelec != null)
@@ -216,7 +220,7 @@ namespace formularios
                                     // actualizo informacion en cliente y carne.
                                     carneSelec.CantidadKilos -= cantidadkilos;
                                     clienteSelec.CantidadDinero -= res;
-                                    this.monto -= res;
+                                    this.Monto -= res;
                                     // actualizo informacion en pantalla.
                                     //this.rellenarTitulo(this.mail, this.monto);
                                     this.txb_detalles.Text = carneSelec.Mostrar_carne();
@@ -246,13 +250,30 @@ namespace formularios
 
         private void modificarCorreoElectronicoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmModificarMail form = new FrmModificarMail(mail);
-            
+            FrmModificarMail form = new FrmModificarMail(Mail);
+
 
             DialogResult res = form.ShowDialog();
-            if (res == DialogResult.OK) 
+            if (res == DialogResult.OK)
             {
+
+                string nuevoCorreo = form.CorreoNuevo;
+                this.Mail = nuevoCorreo;
                 MessageBox.Show("El Correo Electronico se modifico con exito!");
+            }
+        }
+
+        private void modificarMontoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmModificarMonto form = new FrmModificarMonto(Mail, Monto);
+
+
+            DialogResult res = form.ShowDialog();
+            if (res == DialogResult.OK)
+            {
+                decimal nuevoMonto = form.NuevoMonto;
+                this.Monto = nuevoMonto;
+                MessageBox.Show("El Monto se modifico con exito!");
             }
         }
     }
