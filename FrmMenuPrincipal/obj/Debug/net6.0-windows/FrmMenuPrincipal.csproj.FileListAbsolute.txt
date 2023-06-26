@@ -304,3 +304,8 @@ C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmMenuPrincipal\
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmMenuPrincipal\obj\Debug\net6.0-windows\FrmMenuPrincipal.pdb
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmMenuPrincipal\obj\Debug\net6.0-windows\FrmMenuPrincipal.genruntimeconfig.cache
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmMenuPrincipal\obj\Debug\net6.0-windows\ref\FrmMenuPrincipal.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmMenuPrincipal\bin\Debug\net6.0-windows\FrmModificarMail.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmMenuPrincipal\bin\Debug\net6.0-windows\FrmModificarMail.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmMenuPrincipal\bin\Debug\net6.0-windows\FrmModificarMail.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmMenuPrincipal\bin\Debug\net6.0-windows\FrmModificarMail.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmMenuPrincipal\bin\Debug\net6.0-windows\FrmModificarMail.pdb

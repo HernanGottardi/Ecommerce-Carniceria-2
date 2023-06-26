@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClasesCarniceria\ClasesCarniceria.csproj" />
+    <ProjectReference Include="..\FrmDatosUsuario\FrmModificarMail.csproj" />
     <ProjectReference Include="..\FrmFactura\FrmFactura.csproj" />
   </ItemGroup>
 

@@ -198,7 +198,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "ClasesCarniceria": "1.0.0",
-          "FrmFactura": "1.0.0"
+          "FrmFactura": "1.0.0",
+          "FrmModificarMail": "1.0.0"
         },
         "compile": {
           "bin/placeholder/FrmElegirProducto.dll": {}
@@ -296,6 +297,22 @@
         },
         "runtime": {
           "bin/placeholder/FrmModificarCorte.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FrmModificarMail/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmModificarMail.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmModificarMail.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -773,6 +790,11 @@
       "type": "project",
       "path": "../FrmModificarCorte/FrmModificarCorte.csproj",
       "msbuildProject": "../FrmModificarCorte/FrmModificarCorte.csproj"
+    },
+    "FrmModificarMail/1.0.0": {
+      "type": "project",
+      "path": "../FrmDatosUsuario/FrmModificarMail.csproj",
+      "msbuildProject": "../FrmDatosUsuario/FrmModificarMail.csproj"
     },
     "FrmModificarProducto/1.0.0": {
       "type": "project",

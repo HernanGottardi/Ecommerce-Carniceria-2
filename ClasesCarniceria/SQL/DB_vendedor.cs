@@ -169,7 +169,7 @@ namespace ClasesCarniceria
             {
                 connection.Open();
                 command.Parameters.Clear();
-                command.CommandText = $"SELECT * FROM Usuario where Usuario.Id_tipoDeUsuario = 2 and Usuario.Mail = @Mail";
+                command.CommandText = $"SELECT * FROM Usuario where Usuario.Id_tipoDeUsuario = 2 and Usuario.Mail COLLATE Latin1_General_CI_AI = @Mail COLLATE Latin1_General_CI_AI";
                 command.Parameters.AddWithValue("@Mail", mail);
                 SqlDataReader dataReader = command.ExecuteReader();
                 while (dataReader.Read())

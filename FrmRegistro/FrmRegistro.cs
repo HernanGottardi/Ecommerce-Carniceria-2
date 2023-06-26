@@ -20,20 +20,56 @@ namespace formularios
             this.correo = tb_correoElectronico.Text;
             this.contraseña = tb_contraseña.Text;
 
-            //  VALIDACION 
-            // ------------------> Falta agregar si existe o no el correo en la DB.
+            Vendedor vendedor = new Vendedor();
             try
             {
-                if (correo.ValidarCorreoElectronico() == true && contraseña.CantidadCaracteresEnRango(8, 10))
+                if (rb_Cliente.Checked == true)
                 {
-                    MessageBox.Show("Tu Registro salio exitoso!");
-                    Cliente c = new Cliente(correo, contraseña);
-                    DB_Cliente.Agregar_cliente(c, 0);
-                    this.DialogResult = DialogResult.OK;
+                    
+                    if (!vendedor.MailClienteExiste(correo) && !Carniceria.MailVendedorExiste(correo))
+                    {
+                        if (correo.ValidarCorreoElectronico() == true && contraseña.CantidadCaracteresEnRango(8, 10))
+                        {
+                            MessageBox.Show("Tu Registro salio exitoso!");
+                            Cliente c = new Cliente(correo, contraseña);
+                            DB_Cliente.Agregar_cliente(c);
+                            this.DialogResult = DialogResult.OK;
+                        }
+                        else
+                        {
+                            MessageBox.Show("La contraseña debe tener entre 8 y 10 caracteres!");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El usuario ingresado ya existe!");
+                    }
                 }
-                else
+                else if (rb_vendedor.Checked == true)
                 {
-                    MessageBox.Show("La contraseña debe tener entre 8 y 10 caracteres!");
+
+                    if (!vendedor.MailClienteExiste(correo) && !Carniceria.MailVendedorExiste(correo))
+                    {
+                        if (correo.ValidarCorreoElectronico() == true && contraseña.CantidadCaracteresEnRango(8, 10))
+                        {
+                            MessageBox.Show("Tu Registro salio exitoso!");
+                            Vendedor v = new Vendedor(correo, contraseña);
+                            DB_vendedor.Agregar_vendedor(v);
+                            this.DialogResult = DialogResult.OK;
+                        }
+                        else
+                        {
+                            MessageBox.Show("La contraseña debe tener entre 8 y 10 caracteres!");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El usuario ingresado ya existe!");
+                    }
+                }
+                else 
+                {
+                    MessageBox.Show("No seleccionaste ningun tipo de usuario!");
                 }
             }
             catch (CorreoCantidadDeCaracteresException ex)
@@ -52,7 +88,7 @@ namespace formularios
 
         private void btn_cancelar_Click(object sender, EventArgs e)
         {
-            this.DialogResult= DialogResult.Cancel;
+            this.DialogResult = DialogResult.Cancel;
         }
     }
 }

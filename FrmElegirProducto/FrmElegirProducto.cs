@@ -57,14 +57,15 @@ namespace formularios
             // Actualiza el texto del Label con el nuevo monto
             if (lb_montoActual.InvokeRequired)
             {
-                Action <object, EventArgs> montoActualizarEventHandler = MontoActualizadoEventHandler;
+                Action<object, EventArgs> montoActualizarEventHandler = MontoActualizadoEventHandler;
                 lb_montoActual.Invoke(montoActualizarEventHandler, sender, e);
 
-            } else 
+            }
+            else
             {
                 lb_montoActual.Text = "Monto actual: $" + monto.ToString();
             }
-                
+
         }
 
         // ##########
@@ -85,7 +86,6 @@ namespace formularios
 
             // Inicia el hilo de actualización
             IniciarHiloActualizacion();
-
 
         }
 
@@ -115,16 +115,7 @@ namespace formularios
                 this.cb_formasDePago.Items.Add(item);
             }
         }
-        /// <summary>
-        /// Llenar label con informacion sobre el mail del cliente y su monto.
-        /// </summary>
-        /// <param name="monto"></param>
-        /// <param name="mail"></param>
-        private void rellenarTitulo(string mail, decimal monto)
-        {
-            this.lb_montoActual.Text = $"El monto de {mail} es de: ${monto}";
-        }
-        
+
         /// <summary>
         /// Mostrar informacion del producto a buscar.
         /// </summary>
@@ -253,5 +244,16 @@ namespace formularios
             }
         }
 
+        private void modificarCorreoElectronicoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmModificarMail form = new FrmModificarMail(mail);
+            
+
+            DialogResult res = form.ShowDialog();
+            if (res == DialogResult.OK) 
+            {
+                MessageBox.Show("El Correo Electronico se modifico con exito!");
+            }
+        }
     }
 }

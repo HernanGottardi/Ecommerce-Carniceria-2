@@ -426,3 +426,8 @@ C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\n
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\FrmLogin.pdb
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\FrmLogin.genruntimeconfig.cache
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\obj\Debug\net6.0-windows\ref\FrmLogin.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarMail.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarMail.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarMail.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarMail.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\Login\bin\Debug\net6.0-windows\FrmModificarMail.pdb

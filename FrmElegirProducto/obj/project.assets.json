@@ -175,6 +175,22 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
+      },
+      "FrmModificarMail/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmModificarMail.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmModificarMail.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
       }
     }
   },
@@ -501,12 +517,18 @@
       "type": "project",
       "path": "../FrmFactura/FrmFactura.csproj",
       "msbuildProject": "../FrmFactura/FrmFactura.csproj"
+    },
+    "FrmModificarMail/1.0.0": {
+      "type": "project",
+      "path": "../FrmDatosUsuario/FrmModificarMail.csproj",
+      "msbuildProject": "../FrmDatosUsuario/FrmModificarMail.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "ClasesCarniceria >= 1.0.0",
-      "FrmFactura >= 1.0.0"
+      "FrmFactura >= 1.0.0",
+      "FrmModificarMail >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -538,6 +560,9 @@
           "projectReferences": {
             "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\ClasesCarniceria\\ClasesCarniceria.csproj": {
               "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\ClasesCarniceria\\ClasesCarniceria.csproj"
+            },
+            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmDatosUsuario\\FrmModificarMail.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmDatosUsuario\\FrmModificarMail.csproj"
             },
             "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmFactura\\FrmFactura.csproj": {
               "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmFactura\\FrmFactura.csproj"

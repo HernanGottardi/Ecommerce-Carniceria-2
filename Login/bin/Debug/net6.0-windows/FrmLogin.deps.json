@@ -119,7 +119,8 @@
       "FrmElegirProducto/1.0.0": {
         "dependencies": {
           "ClasesCarniceria": "1.0.0",
-          "FrmFactura": "1.0.0"
+          "FrmFactura": "1.0.0",
+          "FrmModificarMail": "1.0.0"
         },
         "runtime": {
           "FrmElegirProducto.dll": {}
@@ -164,6 +165,14 @@
         },
         "runtime": {
           "FrmModificarCorte.dll": {}
+        }
+      },
+      "FrmModificarMail/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "runtime": {
+          "FrmModificarMail.dll": {}
         }
       },
       "FrmModificarProducto/1.0.0": {
@@ -321,6 +330,11 @@
       "sha512": ""
     },
     "FrmModificarCorte/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmModificarMail/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

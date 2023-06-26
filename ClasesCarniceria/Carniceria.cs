@@ -19,6 +19,8 @@ namespace ClasesCarniceria
             tiposCortes = ExtraerCortesDeListaProductos(listaProductos);
         }
 
+
+
         /// <summary>
         /// Buscar el indice de un producto carne a traves de su nombre/tipo de corte.
         /// </summary>
@@ -104,6 +106,18 @@ namespace ClasesCarniceria
                 sb.AppendLine("##############################");
             }
             return sb.ToString();
+        }
+
+        public static bool MailVendedorExiste(string mail) 
+        {
+            foreach (Vendedor v in listaVendedores)
+            {
+                if (v.Mail == mail) 
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

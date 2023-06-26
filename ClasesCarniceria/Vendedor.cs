@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using ClasesCarniceria.Interfaces;
+using System.Text;
 
 namespace ClasesCarniceria
 {
@@ -6,8 +7,7 @@ namespace ClasesCarniceria
     {
         private string mail;
         private string contraseña;
-
-        public List<Cliente> listaClientes;
+        private List<Cliente> listaClientes;
 
         public List<Cliente> ListaClientes { get => listaClientes; set => listaClientes = value; }
         public override string Mail { get => mail; set => mail = value; }
@@ -127,6 +127,20 @@ namespace ClasesCarniceria
         {
             return !(c == vendedor);
         }
+
+        public bool MailClienteExiste(string mail) 
+        {
+            foreach (Cliente c in listaClientes)
+            {
+                if (c.Mail == mail) 
+                {
+                    return true;
+                    break;
+                }
+            }
+            return false;
+        }
+
     }
 
 }

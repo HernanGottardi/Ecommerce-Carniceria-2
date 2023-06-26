@@ -40,14 +40,20 @@
             cb_formasDePago = new ComboBox();
             lb_formaDePago = new Label();
             btn_detallar = new Button();
+            menuStrip1 = new MenuStrip();
+            datToolStripMenuItem = new ToolStripMenuItem();
+            modificarCorreoElectronicoToolStripMenuItem = new ToolStripMenuItem();
+            modificarMontoToolStripMenuItem = new ToolStripMenuItem();
+            modificarContraseñaToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)nud_cantidadKilos).BeginInit();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // lb_montoActual
             // 
             lb_montoActual.AutoSize = true;
             lb_montoActual.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
-            lb_montoActual.Location = new Point(12, 19);
+            lb_montoActual.Location = new Point(12, 36);
             lb_montoActual.Name = "lb_montoActual";
             lb_montoActual.Size = new Size(121, 25);
             lb_montoActual.TabIndex = 0;
@@ -125,7 +131,7 @@
             btn_comprar.Name = "btn_comprar";
             btn_comprar.Size = new Size(255, 73);
             btn_comprar.TabIndex = 8;
-            btn_comprar.Text = "Comprar";
+            btn_comprar.Text = "COMPRAR";
             btn_comprar.UseVisualStyleBackColor = false;
             btn_comprar.Click += btn_comprar_Click;
             // 
@@ -158,6 +164,42 @@
             btn_detallar.UseVisualStyleBackColor = true;
             btn_detallar.Click += btn_detallar_Click;
             // 
+            // menuStrip1
+            // 
+            menuStrip1.ImageScalingSize = new Size(20, 20);
+            menuStrip1.Items.AddRange(new ToolStripItem[] { datToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(800, 28);
+            menuStrip1.TabIndex = 12;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // datToolStripMenuItem
+            // 
+            datToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { modificarCorreoElectronicoToolStripMenuItem, modificarMontoToolStripMenuItem, modificarContraseñaToolStripMenuItem });
+            datToolStripMenuItem.Name = "datToolStripMenuItem";
+            datToolStripMenuItem.Size = new Size(137, 24);
+            datToolStripMenuItem.Text = "Datos de Usuario";
+            // 
+            // modificarCorreoElectronicoToolStripMenuItem
+            // 
+            modificarCorreoElectronicoToolStripMenuItem.Name = "modificarCorreoElectronicoToolStripMenuItem";
+            modificarCorreoElectronicoToolStripMenuItem.Size = new Size(283, 26);
+            modificarCorreoElectronicoToolStripMenuItem.Text = "Modificar Correo Electronico";
+            modificarCorreoElectronicoToolStripMenuItem.Click += modificarCorreoElectronicoToolStripMenuItem_Click;
+            // 
+            // modificarMontoToolStripMenuItem
+            // 
+            modificarMontoToolStripMenuItem.Name = "modificarMontoToolStripMenuItem";
+            modificarMontoToolStripMenuItem.Size = new Size(283, 26);
+            modificarMontoToolStripMenuItem.Text = "Modificar Monto";
+            // 
+            // modificarContraseñaToolStripMenuItem
+            // 
+            modificarContraseñaToolStripMenuItem.Name = "modificarContraseñaToolStripMenuItem";
+            modificarContraseñaToolStripMenuItem.Size = new Size(283, 26);
+            modificarContraseñaToolStripMenuItem.Text = "Modificar Contraseña";
+            // 
             // FrmElegirProducto
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -176,12 +218,16 @@
             Controls.Add(txb_buscadorProductos);
             Controls.Add(lsb_listaProductos);
             Controls.Add(lb_montoActual);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FrmElegirProducto";
             Text = "Comprar Producto";
             Load += FrmElegirProducto_Load_1;
             ((System.ComponentModel.ISupportInitialize)nud_cantidadKilos).EndInit();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -200,5 +246,10 @@
         private ComboBox cb_formasDePago;
         private Label lb_formaDePago;
         private Button btn_detallar;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem datToolStripMenuItem;
+        private ToolStripMenuItem modificarCorreoElectronicoToolStripMenuItem;
+        private ToolStripMenuItem modificarMontoToolStripMenuItem;
+        private ToolStripMenuItem modificarContraseñaToolStripMenuItem;
     }
 }

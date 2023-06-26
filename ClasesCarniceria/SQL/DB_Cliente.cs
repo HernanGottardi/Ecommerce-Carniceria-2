@@ -77,7 +77,33 @@ namespace ClasesCarniceria
             }
         }
 
-        public static void Agregar_cliente(Cliente c, decimal monto)
+        public static Cliente Leer_cliente(string mail)
+        {
+            Cliente c = null;
+            try
+            {
+                command.Parameters.Clear();
+                connection.Open();
+                command.CommandText = "SELECT * FROM Usuario where Usuario.Id_tipoDeUsuario = 1 and Usuario.Mail = @Mail";
+                command.Parameters.AddWithValue("@Mail", mail);
+                SqlDataReader dataReader = command.ExecuteReader();
+                while (dataReader.Read())
+                {
+                    c = new Cliente(dataReader["Mail"].ToString(), dataReader["Contraseña"].ToString(), (decimal)dataReader["Cantidad_dinero"]);
+                }
+                return c;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
+        public static void Agregar_cliente(Cliente c)
         {
             if (Mail_cliente_existe(c.Mail))
             {
@@ -102,7 +128,6 @@ namespace ClasesCarniceria
                     throw;
                 }
                 finally { connection.Close(); }
-
             }
         }
 
@@ -192,7 +217,7 @@ namespace ClasesCarniceria
             {
                 command.Parameters.Clear();
                 connection.Open();
-                command.CommandText = $"SELECT * FROM Usuario where Usuario.Id_tipoDeUsuario = 1 and Usuario.Mail = @Mail";
+                command.CommandText = $"SELECT * FROM Usuario where Usuario.Id_tipoDeUsuario = 1 and Usuario.Mail = @Mail ";
                 command.Parameters.AddWithValue("@Mail", mail);
                 SqlDataReader dataReader = command.ExecuteReader();
                 while (dataReader.Read())

@@ -171,3 +171,8 @@ C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmVenta\obj\Debu
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmVenta\obj\Debug\net6.0-windows\FrmVenta.pdb
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmVenta\obj\Debug\net6.0-windows\FrmVenta.genruntimeconfig.cache
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmVenta\obj\Debug\net6.0-windows\ref\FrmVenta.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmVenta\bin\Debug\net6.0-windows\FrmModificarMail.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmVenta\bin\Debug\net6.0-windows\FrmModificarMail.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmVenta\bin\Debug\net6.0-windows\FrmModificarMail.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmVenta\bin\Debug\net6.0-windows\FrmModificarMail.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmVenta\bin\Debug\net6.0-windows\FrmModificarMail.pdb
