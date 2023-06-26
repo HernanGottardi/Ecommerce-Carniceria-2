@@ -116,3 +116,29 @@ C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmAgregarCorte\o
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmAgregarCorte\obj\Debug\net6.0-windows\FrmAgregarCorte.pdb
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmAgregarCorte\obj\Debug\net6.0-windows\FrmAgregarCorte.genruntimeconfig.cache
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmAgregarCorte\obj\Debug\net6.0-windows\ref\FrmAgregarCorte.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\bin\Debug\net6.0-windows\FrmAgregarCorte.exe
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\bin\Debug\net6.0-windows\FrmAgregarCorte.deps.json
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\bin\Debug\net6.0-windows\FrmAgregarCorte.runtimeconfig.json
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\bin\Debug\net6.0-windows\FrmAgregarCorte.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\bin\Debug\net6.0-windows\FrmAgregarCorte.pdb
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\obj\Debug\net6.0-windows\FrmAgregarCorte.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\obj\Debug\net6.0-windows\formularios.FrmAgregarCorte.resources
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\obj\Debug\net6.0-windows\FrmAgregarCorte.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\obj\Debug\net6.0-windows\FrmAgregarCorte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\obj\Debug\net6.0-windows\FrmAgregarCorte.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\obj\Debug\net6.0-windows\FrmAgregarCorte.AssemblyInfo.cs
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\obj\Debug\net6.0-windows\FrmAgregarCorte.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\obj\Debug\net6.0-windows\FrmAgregarCorte.csproj.CopyComplete
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\obj\Debug\net6.0-windows\FrmAgregarCorte.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\obj\Debug\net6.0-windows\refint\FrmAgregarCorte.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\obj\Debug\net6.0-windows\FrmAgregarCorte.pdb
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\obj\Debug\net6.0-windows\FrmAgregarCorte.genruntimeconfig.cache
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmAgregarCorte\obj\Debug\net6.0-windows\ref\FrmAgregarCorte.dll

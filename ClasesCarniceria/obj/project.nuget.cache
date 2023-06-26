@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VHnaJu/4usQo2atx2p98iGKhTgbV4ymUHFYJi40W/0z4aWUPC+zd5OwUSye2SNhftwTII/3VFH9IpxMzsv+LDw==",
+  "dgSpecHash": "OX6c+x+/N+KnliMcr253xSVycr84sjAV38rylRfS7fohG/UYPtrLe4/tLq4UyEdfI2JlH1/7nl1GYFLRyrGJQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\ClasesCarniceria\\ClasesCarniceria.csproj",
+  "projectFilePath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\herni\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\herni\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

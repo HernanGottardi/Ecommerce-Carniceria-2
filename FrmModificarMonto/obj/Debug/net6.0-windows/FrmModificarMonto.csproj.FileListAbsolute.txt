@@ -24,3 +24,29 @@ C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmModificarMonto
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmModificarMonto\obj\Debug\net6.0-windows\FrmModificarMonto.pdb
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmModificarMonto\obj\Debug\net6.0-windows\FrmModificarMonto.genruntimeconfig.cache
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\FrmModificarMonto\obj\Debug\net6.0-windows\ref\FrmModificarMonto.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\bin\Debug\net6.0-windows\FrmModificarMonto.exe
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\bin\Debug\net6.0-windows\FrmModificarMonto.deps.json
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\bin\Debug\net6.0-windows\FrmModificarMonto.runtimeconfig.json
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\bin\Debug\net6.0-windows\FrmModificarMonto.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\bin\Debug\net6.0-windows\FrmModificarMonto.pdb
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\obj\Debug\net6.0-windows\FrmModificarMonto.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\obj\Debug\net6.0-windows\formularios.FrmModificarMonto.resources
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\obj\Debug\net6.0-windows\FrmModificarMonto.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\obj\Debug\net6.0-windows\FrmModificarMonto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\obj\Debug\net6.0-windows\FrmModificarMonto.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\obj\Debug\net6.0-windows\FrmModificarMonto.AssemblyInfo.cs
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\obj\Debug\net6.0-windows\FrmModificarMonto.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\obj\Debug\net6.0-windows\FrmModificarMonto.csproj.CopyComplete
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\obj\Debug\net6.0-windows\FrmModificarMonto.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\obj\Debug\net6.0-windows\refint\FrmModificarMonto.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\obj\Debug\net6.0-windows\FrmModificarMonto.pdb
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\obj\Debug\net6.0-windows\FrmModificarMonto.genruntimeconfig.cache
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarMonto\obj\Debug\net6.0-windows\ref\FrmModificarMonto.dll

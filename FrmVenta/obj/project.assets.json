@@ -166,6 +166,7 @@
         "dependencies": {
           "ClasesCarniceria": "1.0.0",
           "FrmFactura": "1.0.0",
+          "FrmModificarContraseña": "1.0.0",
           "FrmModificarMail": "1.0.0",
           "FrmModificarMonto": "1.0.0"
         },
@@ -190,6 +191,22 @@
         },
         "runtime": {
           "bin/placeholder/FrmFactura.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FrmModificarContraseña/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmModificarContraseña.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmModificarContraseña.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -558,6 +575,11 @@
       "path": "../FrmFactura/FrmFactura.csproj",
       "msbuildProject": "../FrmFactura/FrmFactura.csproj"
     },
+    "FrmModificarContraseña/1.0.0": {
+      "type": "project",
+      "path": "../FrmModificarContraseña/FrmModificarContraseña.csproj",
+      "msbuildProject": "../FrmModificarContraseña/FrmModificarContraseña.csproj"
+    },
     "FrmModificarMail/1.0.0": {
       "type": "project",
       "path": "../FrmDatosUsuario/FrmModificarMail.csproj",
@@ -580,11 +602,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmVenta\\FrmVenta.csproj",
+      "projectUniqueName": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmVenta\\FrmVenta.csproj",
       "projectName": "FrmVenta",
-      "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmVenta\\FrmVenta.csproj",
+      "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmVenta\\FrmVenta.csproj",
       "packagesPath": "C:\\Users\\herni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmVenta\\obj\\",
+      "outputPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmVenta\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\herni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -601,8 +623,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmElegirProducto\\FrmElegirProducto.csproj": {
-              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmElegirProducto\\FrmElegirProducto.csproj"
+            "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmElegirProducto\\FrmElegirProducto.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmElegirProducto\\FrmElegirProducto.csproj"
             }
           }
         }

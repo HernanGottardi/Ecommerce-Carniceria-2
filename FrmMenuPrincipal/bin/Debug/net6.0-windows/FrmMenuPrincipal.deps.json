@@ -119,6 +119,7 @@
         "dependencies": {
           "ClasesCarniceria": "1.0.0",
           "FrmFactura": "1.0.0",
+          "FrmModificarContraseña": "1.0.0",
           "FrmModificarMail": "1.0.0",
           "FrmModificarMonto": "1.0.0"
         },
@@ -167,6 +168,14 @@
         },
         "runtime": {
           "FrmLogin.dll": {}
+        }
+      },
+      "FrmModificarContraseña/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "runtime": {
+          "FrmModificarContraseña.dll": {}
         }
       },
       "FrmModificarCorte/1.0.0": {
@@ -356,6 +365,11 @@
       "sha512": ""
     },
     "FrmLogin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmModificarContraseña/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

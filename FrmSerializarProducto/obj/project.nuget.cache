@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uod3b5b6CFeHV+Z2nKYAlNnuwPeuUGz6Xm9AnZC2ZmltHhlDJMM3IJ2A4QprWtaAyHH1R60+ZLi8+b5KbUf0sQ==",
+  "dgSpecHash": "Mh056KnOy9T+xC6+8LVqVXok6mcCumCX1hhspjGpe/a+x0cYqH5mjnxwyrYKYAjPwDrmn/Y7hs5bLlnhvmBfeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmSerializarProducto\\FrmSerializarProducto.csproj",
+  "projectFilePath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmSerializarProducto\\FrmSerializarProducto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\herni\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\herni\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

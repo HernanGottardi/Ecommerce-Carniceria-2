@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w2/AGEaFS+SGasag3eTkS0JJ9atAD+qXrKUTW4xAgjUw7DC3sDI9qtECgIrgj/B88SnEt05M1+O87KxDCFC5mg==",
+  "dgSpecHash": "HYAuWiVLfahaJX/mGcMa1evCMNKaEnFMDRmmJB0sigWJgreoNWibtC3+dd4K1bNoa/8g8Bl6KSGTtzNQpBAxWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmMenuPrincipal\\FrmMenuPrincipal.csproj",
+  "projectFilePath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmMenuPrincipal\\FrmMenuPrincipal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\herni\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\herni\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

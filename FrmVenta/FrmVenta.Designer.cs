@@ -40,7 +40,7 @@
             lb_saludo.BackColor = Color.Transparent;
             lb_saludo.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
             lb_saludo.ForeColor = Color.Black;
-            lb_saludo.Location = new Point(12, 20);
+            lb_saludo.Location = new Point(62, 60);
             lb_saludo.Name = "lb_saludo";
             lb_saludo.Size = new Size(212, 46);
             lb_saludo.TabIndex = 0;
@@ -49,43 +49,44 @@
             // 
             // tx_saldo
             // 
-            tx_saldo.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            tx_saldo.Location = new Point(12, 439);
+            tx_saldo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_saldo.Location = new Point(62, 274);
             tx_saldo.Name = "tx_saldo";
             tx_saldo.PlaceholderText = "Ejemplo: 3000";
-            tx_saldo.Size = new Size(323, 39);
+            tx_saldo.Size = new Size(323, 34);
             tx_saldo.TabIndex = 1;
             // 
             // lb_pedirMonto
             // 
             lb_pedirMonto.AutoSize = true;
             lb_pedirMonto.BackColor = Color.Transparent;
-            lb_pedirMonto.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            lb_pedirMonto.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             lb_pedirMonto.ForeColor = Color.Black;
-            lb_pedirMonto.Location = new Point(12, 380);
+            lb_pedirMonto.Location = new Point(62, 200);
             lb_pedirMonto.Name = "lb_pedirMonto";
-            lb_pedirMonto.Size = new Size(323, 35);
+            lb_pedirMonto.Size = new Size(308, 35);
             lb_pedirMonto.TabIndex = 2;
             lb_pedirMonto.Text = "Ingresar saldo disponible: ";
             // 
             // bt_enviarMonto
             // 
-            bt_enviarMonto.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            bt_enviarMonto.Location = new Point(12, 499);
+            bt_enviarMonto.BackColor = Color.SteelBlue;
+            bt_enviarMonto.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            bt_enviarMonto.ForeColor = Color.White;
+            bt_enviarMonto.Location = new Point(62, 339);
             bt_enviarMonto.Name = "bt_enviarMonto";
-            bt_enviarMonto.Size = new Size(323, 42);
+            bt_enviarMonto.Size = new Size(323, 38);
             bt_enviarMonto.TabIndex = 3;
             bt_enviarMonto.Text = "Enviar";
-            bt_enviarMonto.UseVisualStyleBackColor = true;
+            bt_enviarMonto.UseVisualStyleBackColor = false;
             bt_enviarMonto.Click += bt_enviarMonto_Click;
             // 
             // FrmVenta
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.DarkSlateBlue;
-            BackgroundImage = global::FrmVenta.Properties.Resources.FondoVentas;
-            ClientSize = new Size(687, 553);
+            BackColor = Color.LightSteelBlue;
+            ClientSize = new Size(674, 404);
             Controls.Add(bt_enviarMonto);
             Controls.Add(lb_pedirMonto);
             Controls.Add(tx_saldo);

@@ -200,6 +200,7 @@
             modificarContraseñaToolStripMenuItem.Name = "modificarContraseñaToolStripMenuItem";
             modificarContraseñaToolStripMenuItem.Size = new Size(283, 26);
             modificarContraseñaToolStripMenuItem.Text = "Modificar Contraseña";
+            modificarContraseñaToolStripMenuItem.Click += modificarContraseñaToolStripMenuItem_Click;
             // 
             // FrmElegirProducto
             // 

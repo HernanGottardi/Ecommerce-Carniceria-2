@@ -1,5 +1,6 @@
 using ClasesCarniceria;
 using System.Reflection.Metadata.Ecma335;
+using System.Windows.Forms;
 
 namespace formularios
 {
@@ -276,5 +277,19 @@ namespace formularios
                 MessageBox.Show("El Monto se modifico con exito!");
             }
         }
+
+        private void modificarContraseñaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmModificarContraseña form = new FrmModificarContraseña(this.mail);
+
+
+            DialogResult res = form.ShowDialog();
+            {
+                if (res == DialogResult.OK)
+                {
+                    MessageBox.Show("La contraseña se modifico con exito!");
+                }
+            }
+        }    
     }
 }

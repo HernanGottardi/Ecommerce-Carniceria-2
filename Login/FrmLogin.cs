@@ -62,30 +62,31 @@ namespace formularios
             {
                 Vendedor vendedor = new Vendedor();
 
+                // validamos que exista.
                 if (!vendedor.MailClienteExiste(mail) && !Carniceria.MailVendedorExiste(mail))
                 {
                     MessageBox.Show("El usuario ingresado no existe!");
                 }
                 else
                 {
-                    // Validacion de formato MAIL y CONTRASEÑA
+                    // Validacion de formato MAIL-CONTRASEÑA y de que tipo de USUARIO es.
                     if (mail.ValidarCorreoElectronico() && contraseña.CantidadCaracteresEnRango(8, 10))
                     {
                         if (DB_Cliente.Leer_cliente(mail, contraseña) != null)
                         {
-                            // Invoco y muestro el formulario Venta.
                             FrmVenta paginaVenta = new FrmVenta(mail, contraseña);
                             paginaVenta.Show();
-                            // Oculto el formulario Login.
                             this.Hide();
                         }
                         else if (DB_vendedor.Leer_vendedor(mail, contraseña) != null)
                         {
-                            // Invoco y muestro el formulario Heladera.
                             FrmHeladera paginaHeladera = new FrmHeladera(mail);
                             paginaHeladera.Show(this);
-                            // Oculto el formulario Login.
                             this.Hide();
+                        }
+                        else 
+                        {
+                            MessageBox.Show("Contraseña incorrecta!");
                         }
                     }
                 }

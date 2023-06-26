@@ -199,6 +199,7 @@
         "dependencies": {
           "ClasesCarniceria": "1.0.0",
           "FrmFactura": "1.0.0",
+          "FrmModificarContraseña": "1.0.0",
           "FrmModificarMail": "1.0.0",
           "FrmModificarMonto": "1.0.0"
         },
@@ -264,6 +265,22 @@
         },
         "runtime": {
           "bin/placeholder/FrmHistorial.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FrmModificarContraseña/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmModificarContraseña.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmModificarContraseña.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -764,6 +781,11 @@
       "path": "../FrmHistorial/FrmHistorial.csproj",
       "msbuildProject": "../FrmHistorial/FrmHistorial.csproj"
     },
+    "FrmModificarContraseña/1.0.0": {
+      "type": "project",
+      "path": "../FrmModificarContraseña/FrmModificarContraseña.csproj",
+      "msbuildProject": "../FrmModificarContraseña/FrmModificarContraseña.csproj"
+    },
     "FrmModificarCorte/1.0.0": {
       "type": "project",
       "path": "../FrmModificarCorte/FrmModificarCorte.csproj",
@@ -823,11 +845,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\Login\\FrmLogin.csproj",
+      "projectUniqueName": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\Login\\FrmLogin.csproj",
       "projectName": "FrmLogin",
-      "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\Login\\FrmLogin.csproj",
+      "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\Login\\FrmLogin.csproj",
       "packagesPath": "C:\\Users\\herni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\Login\\obj\\",
+      "outputPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\Login\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\herni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -844,14 +866,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\ClasesCarniceria\\ClasesCarniceria.csproj": {
-              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\ClasesCarniceria\\ClasesCarniceria.csproj"
+            "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj"
             },
-            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmHeladera\\FrmHeladera.csproj": {
-              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmHeladera\\FrmHeladera.csproj"
+            "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmHeladera\\FrmHeladera.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmHeladera\\FrmHeladera.csproj"
             },
-            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmVenta\\FrmVenta.csproj": {
-              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-SP-2023-main - copia\\FrmVenta\\FrmVenta.csproj"
+            "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmVenta\\FrmVenta.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmVenta\\FrmVenta.csproj"
             }
           }
         }

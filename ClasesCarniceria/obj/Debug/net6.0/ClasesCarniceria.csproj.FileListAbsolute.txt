@@ -58,3 +58,15 @@ C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\ClasesCarniceria\
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\ClasesCarniceria\obj\Debug\net6.0\refint\ClasesCarniceria.dll
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.pdb
 C:\Users\herni\Desktop\Gottardi-Hernan-2D-SP-2023-main - copia\ClasesCarniceria\obj\Debug\net6.0\ref\ClasesCarniceria.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\ClasesCarniceria\bin\Debug\net6.0\ClasesCarniceria.deps.json
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\ClasesCarniceria\bin\Debug\net6.0\ClasesCarniceria.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\ClasesCarniceria\bin\Debug\net6.0\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.AssemblyInfo.cs
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\ClasesCarniceria\obj\Debug\net6.0\refint\ClasesCarniceria.dll
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\ClasesCarniceria\obj\Debug\net6.0\ref\ClasesCarniceria.dll
