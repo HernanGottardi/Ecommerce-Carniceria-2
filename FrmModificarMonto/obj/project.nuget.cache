@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K1x0AQFQH9aEiEFnBJMA6egtfoe2UsVJJtL1gzGw7NBg44nuxKIe0m3Sx0+Q5XNXOs8z4MvQFoZo2xVZxMyEoQ==",
+  "dgSpecHash": "1HIQKjKK+B6oq4s8dM2T7V5J1qXTyeET7BoZ4i+jRJwI213yyi9HVBew+t5qv1u6lnblasAq5FuJpKbPj3b9Nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarMonto\\FrmModificarMonto.csproj",
+  "projectFilePath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarMonto\\FrmModificarMonto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\herni\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\herni\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

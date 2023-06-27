@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmHeladera\\FrmHeladera.csproj",
+      "projectUniqueName": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmHeladera\\FrmHeladera.csproj",
       "projectName": "FrmHeladera",
-      "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmHeladera\\FrmHeladera.csproj",
+      "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmHeladera\\FrmHeladera.csproj",
       "packagesPath": "C:\\Users\\herni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmHeladera\\obj\\",
+      "outputPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmHeladera\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\herni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -713,35 +713,35 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj": {
-              "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj"
+            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj"
             },
-            "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarCorte\\FrmAgregarCorte.csproj": {
-              "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarCorte\\FrmAgregarCorte.csproj"
+            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarCorte\\FrmAgregarCorte.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarCorte\\FrmAgregarCorte.csproj"
             },
-            "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarProducto\\FrmAgregarProducto.csproj": {
-              "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarProducto\\FrmAgregarProducto.csproj"
+            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarProducto\\FrmAgregarProducto.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarProducto\\FrmAgregarProducto.csproj"
             },
-            "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmHistorial\\FrmHistorial.csproj": {
-              "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmHistorial\\FrmHistorial.csproj"
+            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmHistorial\\FrmHistorial.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmHistorial\\FrmHistorial.csproj"
             },
-            "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarCorte\\FrmModificarCorte.csproj": {
-              "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarCorte\\FrmModificarCorte.csproj"
+            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarCorte\\FrmModificarCorte.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarCorte\\FrmModificarCorte.csproj"
             },
-            "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\FrmModificarProducto.csproj": {
-              "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\FrmModificarProducto.csproj"
+            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\FrmModificarProducto.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\FrmModificarProducto.csproj"
             },
-            "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmQuitarCorte\\FrmQuitarCorte.csproj": {
-              "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmQuitarCorte\\FrmQuitarCorte.csproj"
+            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmQuitarCorte\\FrmQuitarCorte.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmQuitarCorte\\FrmQuitarCorte.csproj"
             },
-            "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmQuitarProducto\\FrmQuitarProducto.csproj": {
-              "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmQuitarProducto\\FrmQuitarProducto.csproj"
+            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmQuitarProducto\\FrmQuitarProducto.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmQuitarProducto\\FrmQuitarProducto.csproj"
             },
-            "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmSerializarCliente\\FrmSerializarCliente.csproj": {
-              "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmSerializarCliente\\FrmSerializarCliente.csproj"
+            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmSerializarCliente\\FrmSerializarCliente.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmSerializarCliente\\FrmSerializarCliente.csproj"
             },
-            "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmSerializarProducto\\FrmSerializarProducto.csproj": {
-              "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmSerializarProducto\\FrmSerializarProducto.csproj"
+            "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmSerializarProducto\\FrmSerializarProducto.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmSerializarProducto\\FrmSerializarProducto.csproj"
             }
           }
         }

@@ -284,12 +284,25 @@ namespace formularios
 
 
             DialogResult res = form.ShowDialog();
+            
+            if (res == DialogResult.OK)
             {
-                if (res == DialogResult.OK)
-                {
-                    MessageBox.Show("La contraseña se modifico con exito!");
-                }
+                MessageBox.Show("La contraseña se modifico con exito!");
             }
-        }    
+            
+        }
+
+        private void verTusDatosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmResumenDatosUsuario form = new FrmResumenDatosUsuario(this.mail);
+
+            DialogResult res = form.ShowDialog();
+            
+            if (res == DialogResult.OK)
+            {
+                this.Close();
+            }
+            
+        }
     }
 }

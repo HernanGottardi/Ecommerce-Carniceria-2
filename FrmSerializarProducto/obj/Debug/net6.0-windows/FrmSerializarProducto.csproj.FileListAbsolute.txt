@@ -102,3 +102,29 @@ C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmSerializar
 C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\FrmSerializarProducto.pdb
 C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\FrmSerializarProducto.genruntimeconfig.cache
 C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\ref\FrmSerializarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\bin\Debug\net6.0-windows\FrmSerializarProducto.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\bin\Debug\net6.0-windows\FrmSerializarProducto.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\bin\Debug\net6.0-windows\FrmSerializarProducto.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\bin\Debug\net6.0-windows\FrmSerializarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\bin\Debug\net6.0-windows\FrmSerializarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\FrmSerializarProducto.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\formularios.FrmSerializarProducto.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\FrmSerializarProducto.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\FrmSerializarProducto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\FrmSerializarProducto.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\FrmSerializarProducto.AssemblyInfo.cs
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\FrmSerializarProducto.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\FrmSerializarProducto.csproj.CopyComplete
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\FrmSerializarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\refint\FrmSerializarProducto.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\FrmSerializarProducto.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\FrmSerializarProducto.genruntimeconfig.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmSerializarProducto\obj\Debug\net6.0-windows\ref\FrmSerializarProducto.dll

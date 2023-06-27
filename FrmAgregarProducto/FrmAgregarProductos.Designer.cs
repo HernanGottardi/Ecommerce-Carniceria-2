@@ -46,7 +46,7 @@
             lb_tituloAgregarProducto.AutoSize = true;
             lb_tituloAgregarProducto.Font = new Font("Segoe UI", 26F, FontStyle.Regular, GraphicsUnit.Point);
             lb_tituloAgregarProducto.ForeColor = Color.White;
-            lb_tituloAgregarProducto.Location = new Point(176, 36);
+            lb_tituloAgregarProducto.Location = new Point(174, 35);
             lb_tituloAgregarProducto.Name = "lb_tituloAgregarProducto";
             lb_tituloAgregarProducto.Size = new Size(401, 60);
             lb_tituloAgregarProducto.TabIndex = 0;
@@ -110,7 +110,7 @@
             btn_cancelar.BackColor = Color.Black;
             btn_cancelar.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             btn_cancelar.ForeColor = Color.White;
-            btn_cancelar.Location = new Point(434, 365);
+            btn_cancelar.Location = new Point(436, 365);
             btn_cancelar.Name = "btn_cancelar";
             btn_cancelar.Size = new Size(141, 43);
             btn_cancelar.TabIndex = 8;

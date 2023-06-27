@@ -45,6 +45,7 @@
             modificarCorreoElectronicoToolStripMenuItem = new ToolStripMenuItem();
             modificarMontoToolStripMenuItem = new ToolStripMenuItem();
             modificarContraseñaToolStripMenuItem = new ToolStripMenuItem();
+            verTusDatosToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)nud_cantidadKilos).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -176,7 +177,7 @@
             // 
             // datToolStripMenuItem
             // 
-            datToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { modificarCorreoElectronicoToolStripMenuItem, modificarMontoToolStripMenuItem, modificarContraseñaToolStripMenuItem });
+            datToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { modificarCorreoElectronicoToolStripMenuItem, modificarMontoToolStripMenuItem, modificarContraseñaToolStripMenuItem, verTusDatosToolStripMenuItem });
             datToolStripMenuItem.Name = "datToolStripMenuItem";
             datToolStripMenuItem.Size = new Size(137, 24);
             datToolStripMenuItem.Text = "Datos de Usuario";
@@ -201,6 +202,13 @@
             modificarContraseñaToolStripMenuItem.Size = new Size(283, 26);
             modificarContraseñaToolStripMenuItem.Text = "Modificar Contraseña";
             modificarContraseñaToolStripMenuItem.Click += modificarContraseñaToolStripMenuItem_Click;
+            // 
+            // verTusDatosToolStripMenuItem
+            // 
+            verTusDatosToolStripMenuItem.Name = "verTusDatosToolStripMenuItem";
+            verTusDatosToolStripMenuItem.Size = new Size(283, 26);
+            verTusDatosToolStripMenuItem.Text = "Ver Tus Datos";
+            verTusDatosToolStripMenuItem.Click += verTusDatosToolStripMenuItem_Click;
             // 
             // FrmElegirProducto
             // 
@@ -253,5 +261,6 @@
         private ToolStripMenuItem modificarCorreoElectronicoToolStripMenuItem;
         private ToolStripMenuItem modificarMontoToolStripMenuItem;
         private ToolStripMenuItem modificarContraseñaToolStripMenuItem;
+        private ToolStripMenuItem verTusDatosToolStripMenuItem;
     }
 }

@@ -142,3 +142,29 @@ C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmFactura\ob
 C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\FrmFactura.pdb
 C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\FrmFactura.genruntimeconfig.cache
 C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\ref\FrmFactura.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\bin\Debug\net6.0-windows\FrmFactura.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\bin\Debug\net6.0-windows\FrmFactura.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\bin\Debug\net6.0-windows\FrmFactura.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\bin\Debug\net6.0-windows\FrmFactura.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\bin\Debug\net6.0-windows\FrmFactura.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\FrmFactura.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\formularios.FrmFactura.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\FrmFactura.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\FrmFactura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\FrmFactura.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\FrmFactura.AssemblyInfo.cs
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\FrmFactura.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\FrmFactura.csproj.CopyComplete
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\FrmFactura.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\refint\FrmFactura.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\FrmFactura.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\FrmFactura.genruntimeconfig.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmFactura\obj\Debug\net6.0-windows\ref\FrmFactura.dll

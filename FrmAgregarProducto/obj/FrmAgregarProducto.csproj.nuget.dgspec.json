@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarProducto\\FrmAgregarProducto.csproj": {}
+    "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarProducto\\FrmAgregarProducto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj": {
+    "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj",
+        "projectUniqueName": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj",
         "projectName": "ClasesCarniceria",
-        "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj",
+        "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj",
         "packagesPath": "C:\\Users\\herni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\obj\\",
+        "outputPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\herni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarProducto\\FrmAgregarProducto.csproj": {
+    "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarProducto\\FrmAgregarProducto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarProducto\\FrmAgregarProducto.csproj",
+        "projectUniqueName": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarProducto\\FrmAgregarProducto.csproj",
         "projectName": "FrmAgregarProducto",
-        "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarProducto\\FrmAgregarProducto.csproj",
+        "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarProducto\\FrmAgregarProducto.csproj",
         "packagesPath": "C:\\Users\\herni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarProducto\\obj\\",
+        "outputPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmAgregarProducto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\herni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,11 +89,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj": {
-                "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj"
+              "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj": {
+                "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj"
               },
-              "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\FrmModificarProducto.csproj": {
-                "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\FrmModificarProducto.csproj"
+              "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\FrmModificarProducto.csproj": {
+                "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\FrmModificarProducto.csproj"
               }
             }
           }
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\FrmModificarProducto.csproj": {
+    "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\FrmModificarProducto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\FrmModificarProducto.csproj",
+        "projectUniqueName": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\FrmModificarProducto.csproj",
         "projectName": "FrmModificarProducto",
-        "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\FrmModificarProducto.csproj",
+        "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\FrmModificarProducto.csproj",
         "packagesPath": "C:\\Users\\herni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\obj\\",
+        "outputPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmModificarProducto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\herni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,8 +154,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj": {
-                "projectPath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj"
+              "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj": {
+                "projectPath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\ClasesCarniceria\\ClasesCarniceria.csproj"
               }
             }
           }

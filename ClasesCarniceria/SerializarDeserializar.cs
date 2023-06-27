@@ -15,10 +15,13 @@ namespace ClasesCarniceria
         private static string ruta = AppDomain.CurrentDomain.BaseDirectory;
 
         // SERIALIZADOR XML
+        
         public static void Serializar_lista_XML<T>(List<T> lista, string nombreArchivo)
         {
+            string nombreArchivoCompleto = @"\" + nombreArchivo + ".xml";
+            string rutaCompleta = ruta + nombreArchivoCompleto;
 
-            using (StreamWriter streamWriter = new StreamWriter(ruta + nombreArchivo + ".xml"))
+            using (StreamWriter streamWriter = new StreamWriter(rutaCompleta))
             {
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<T>));
                 xmlSerializer.Serialize(streamWriter, lista);        
@@ -28,7 +31,7 @@ namespace ClasesCarniceria
         public static void Serializar_objeto_XML<T>(T obj, string nombreArchivo)
         {
 
-            using (StreamWriter streamWriter = new StreamWriter(ruta + "/" + nombreArchivo + ".xml"))
+            using (StreamWriter streamWriter = new StreamWriter(ruta + @"\" + nombreArchivo + ".xml"))
             {
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(T));
                 xmlSerializer.Serialize(streamWriter, obj);
@@ -39,7 +42,7 @@ namespace ClasesCarniceria
 
         public static List<T> Deserializar_lista_XML<T>(string nombreArchivo)
         {
-            string rutaEntera = ruta + "/" + nombreArchivo + ".xml";
+            string rutaEntera = ruta + @"\" + nombreArchivo + ".xml";
 
             if (File.Exists(rutaEntera))
             {
@@ -58,7 +61,7 @@ namespace ClasesCarniceria
 
         public static T Deserializar_objeto_XML<T>(string nombreArchivo)
         {
-            using (StreamReader streamReader = new StreamReader(ruta + "/" + nombreArchivo + ".xml"))
+            using (StreamReader streamReader = new StreamReader(ruta + @"\" + nombreArchivo + ".xml"))
             {
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(T));
 
@@ -71,20 +74,20 @@ namespace ClasesCarniceria
         public static void Serializar_lista_JSON<T>(List<T> lista, string nombreArchivo) 
         {
             string json = JsonSerializer.Serialize(lista);
-            File.WriteAllText(ruta + "/" + nombreArchivo + ".json", json);
+            File.WriteAllText(ruta + @"\" + nombreArchivo + ".json", json);
         }
 
         public static void Serializar_objeto_JSON<T>(T obj, string nombreArchivo)
         {
             string json = JsonSerializer.Serialize(obj);
-            File.WriteAllText(ruta + "/" + nombreArchivo + ".json", json);
+            File.WriteAllText(ruta + @"\" + nombreArchivo + ".json", json);
         }
 
         // Deserializar JSON
 
         public static List<T> Deserializar_lista_JSON<T>(string nombreArchivo)
         {
-            string rutaEntera = ruta + "/" + nombreArchivo + ".json";
+            string rutaEntera = ruta + @"\" + nombreArchivo + ".json";
 
             if (File.Exists(rutaEntera))
             {
@@ -100,7 +103,7 @@ namespace ClasesCarniceria
 
         public static T Deserealizar_objeto_JSON<T>(string nombreArchivo)
         {
-            string rutaEntera = ruta + "/" + nombreArchivo + ".json";
+            string rutaEntera = ruta + @"\" + nombreArchivo + ".json";
 
             if (File.Exists(rutaEntera))
             {

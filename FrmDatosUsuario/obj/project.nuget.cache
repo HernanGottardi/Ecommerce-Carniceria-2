@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cUZLnw1bZZkE3U3rOV3Y7Bvouzw+ozkFgRW7oGkHapOhIVqR9RXnQ98BoyV46yN6LJW8wTO4HgJRe2mV0TRdNw==",
+  "dgSpecHash": "YHPU2UdBPWo1utcOqDs192spSmGaEX1tvnJqiU3xM5vPsUn5ZruVqLccGj1ZLJB88S/qUFt97ZHvjHLvm89IwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmDatosUsuario\\FrmModificarMail.csproj",
+  "projectFilePath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmDatosUsuario\\FrmModificarMail.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\herni\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\herni\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

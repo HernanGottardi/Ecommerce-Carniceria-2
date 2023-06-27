@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iTfIsq0LKLHctqk42HxMQUBnOCPvivRsHCS4iQNHaSeZ1hYZt0lvJcLl1WdmM0qqKbkNCdvMD/uFyipT+Espkg==",
+  "dgSpecHash": "LnzRKxF0LWviDGtovsZ+Z2P8LAUG85Gvdu0138newVEfnexM8giH34+KBoHyhbXLMSnZSbPVXsNyjR3jAA9JIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\herni\\Desktop\\segundo parcial\\Gottardi-Hernan-2D-2P-2023-\\FrmQuitarCorte\\FrmQuitarCorte.csproj",
+  "projectFilePath": "C:\\Users\\herni\\Desktop\\Gottardi-Hernan-2D-2P-2023-\\FrmQuitarCorte\\FrmQuitarCorte.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\herni\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\herni\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

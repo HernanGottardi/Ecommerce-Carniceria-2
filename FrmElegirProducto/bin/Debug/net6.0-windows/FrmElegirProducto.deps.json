@@ -12,7 +12,8 @@
           "FrmFactura": "1.0.0",
           "FrmModificarContraseña": "1.0.0",
           "FrmModificarMail": "1.0.0",
-          "FrmModificarMonto": "1.0.0"
+          "FrmModificarMonto": "1.0.0",
+          "FrmResumenDatosUsuario": "1.0.0"
         },
         "runtime": {
           "FrmElegirProducto.dll": {}
@@ -132,6 +133,14 @@
         "runtime": {
           "FrmModificarMonto.dll": {}
         }
+      },
+      "FrmResumenDatosUsuario/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "runtime": {
+          "FrmResumenDatosUsuario.dll": {}
+        }
       }
     }
   },
@@ -225,6 +234,11 @@
       "sha512": ""
     },
     "FrmModificarMonto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmResumenDatosUsuario/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

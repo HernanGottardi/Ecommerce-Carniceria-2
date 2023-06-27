@@ -24,3 +24,29 @@ C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarC
 C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\FrmModificarContraseña.pdb
 C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\FrmModificarContraseña.genruntimeconfig.cache
 C:\Users\herni\Desktop\segundo parcial\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\ref\FrmModificarContraseña.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\bin\Debug\net6.0-windows\FrmModificarContraseña.exe
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\bin\Debug\net6.0-windows\FrmModificarContraseña.deps.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\bin\Debug\net6.0-windows\FrmModificarContraseña.runtimeconfig.json
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\bin\Debug\net6.0-windows\FrmModificarContraseña.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\bin\Debug\net6.0-windows\FrmModificarContraseña.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\FrmModificarContraseña.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\formularios.FrmModificarContraseña.resources
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\FrmModificarContraseña.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\FrmModificarContraseña.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\FrmModificarContraseña.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\FrmModificarContraseña.AssemblyInfo.cs
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\FrmModificarContraseña.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\FrmModificarContraseña.csproj.CopyComplete
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\FrmModificarContraseña.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\refint\FrmModificarContraseña.dll
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\FrmModificarContraseña.pdb
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\FrmModificarContraseña.genruntimeconfig.cache
+C:\Users\herni\Desktop\Gottardi-Hernan-2D-2P-2023-\FrmModificarContraseña\obj\Debug\net6.0-windows\ref\FrmModificarContraseña.dll
