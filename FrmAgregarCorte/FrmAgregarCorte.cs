@@ -1,3 +1,6 @@
+using ClasesCarniceria;
+using ClasesCarniceria.SQL;
+
 namespace formularios
 {
     public partial class FrmAgregarCorte : Form
@@ -19,9 +22,17 @@ namespace formularios
         private void btn_aceptar_Click_1(object sender, EventArgs e)
         {
             this.NuevoCorte = this.txb_agregarCorteNuevo.Text.ToString();
-            if (!(String.IsNullOrWhiteSpace(NuevoCorte)))
+            if (!(string.IsNullOrWhiteSpace(NuevoCorte)))
             {
-                this.DialogResult = DialogResult.OK;
+                if (!DB_Corte.Corte_existe(nuevoCorte))
+                {
+                    DB_Corte.Agregar_corte(nuevoCorte);
+                    this.DialogResult = DialogResult.OK;
+                }
+                else 
+                {
+                    MessageBox.Show("El 'tipo de corte' ingresado ya existe.");
+                }   
             }
             else
             {

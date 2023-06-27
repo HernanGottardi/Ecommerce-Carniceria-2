@@ -1,4 +1,5 @@
 using ClasesCarniceria;
+using ClasesCarniceria.SQL;
 
 namespace formularios
 {
@@ -17,11 +18,11 @@ namespace formularios
 
         private void FrmQuitarCorte_Load(object sender, EventArgs e)
         {
-            // Cargamos cortes de carne.
             this.lsb_listaDeCortes.Items.Clear();
-            foreach (var item in Carniceria.tiposCortes)
+            List<string> lista = DB_Corte.Leer_cortes();
+            foreach (string corte in lista)
             {
-                this.lsb_listaDeCortes.Items.Add(item);
+                this.lsb_listaDeCortes.Items.Add(corte);
             }
         }
         /// <summary>
@@ -32,13 +33,8 @@ namespace formularios
             if (this.lsb_listaDeCortes.SelectedItem is not null)
             {
                 string corteSelec = this.lsb_listaDeCortes.SelectedItem.ToString();
-
-                int indexCorteSelec = Carniceria.IndexCorteCarne(corteSelec);
-                if (indexCorteSelec != -1)
-                {
-                    Carniceria.tiposCortes.RemoveAt(indexCorteSelec);
-                    this.DialogResult = DialogResult.OK;
-                }
+                DB_Corte.Borrar_corte(corteSelec);
+                this.DialogResult = DialogResult.OK;
             }
         }
 

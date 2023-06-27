@@ -1,5 +1,6 @@
 
 using ClasesCarniceria;
+using ClasesCarniceria.SQL;
 
 namespace formularios
 {
@@ -16,9 +17,10 @@ namespace formularios
         private void Form1_Load(object sender, EventArgs e)
         {
             this.lsb_listaDeCortes.Items.Clear();
-            foreach (var item in Carniceria.tiposCortes)
+            List<string> lista = DB_Corte.Leer_cortes();
+            foreach (string corte in lista)
             {
-                this.lsb_listaDeCortes.Items.Add(item);
+                this.lsb_listaDeCortes.Items.Add(corte);
             }
         }
         /// <summary>
@@ -30,13 +32,15 @@ namespace formularios
             if (this.lsb_listaDeCortes.SelectedItem != null)
             {
                 string corteSelec = this.lsb_listaDeCortes.SelectedItem.ToString();
-                int indexCorteSelec = Carniceria.IndexCorteCarne(corteSelec);
 
                 // modifico.
                 if (!(string.IsNullOrEmpty(txb_nuevoNombre.Text)))
                 {
-                    Carniceria.tiposCortes[indexCorteSelec] = this.txb_nuevoNombre.Text;
-                    this.DialogResult = DialogResult.OK;
+                    bool res = DB_Corte.Modificar_corte(this.txb_nuevoNombre.Text, corteSelec);
+                    if (res) 
+                    {
+                        this.DialogResult = DialogResult.OK;
+                    }
                 }
                 else { MessageBox.Show("Error: Falto ingresar un nuevo nombre para el corte seleccionado."); }
             }

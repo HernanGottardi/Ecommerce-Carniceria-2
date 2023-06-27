@@ -15,10 +15,6 @@ namespace ClasesCarniceria.SQL
             connection = new SqlConnection(connectionString);
             command = new SqlCommand();
             command.Connection = connection;
-            /*
-             Esto indica que se utilizará texto plano como tipo de comando. En este caso, 
-             se espera que se escriban consultas SQL como texto plano en el objeto command antes de ejecutarlas.
-            */
             command.CommandType = System.Data.CommandType.Text;
         }
         public static List<Carne> Leer_carnes()

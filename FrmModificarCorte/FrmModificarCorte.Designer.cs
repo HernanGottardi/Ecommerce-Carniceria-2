@@ -41,7 +41,7 @@
             lsb_listaDeCortes.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             lsb_listaDeCortes.FormattingEnabled = true;
             lsb_listaDeCortes.ItemHeight = 28;
-            lsb_listaDeCortes.Location = new Point(168, 95);
+            lsb_listaDeCortes.Location = new Point(101, 98);
             lsb_listaDeCortes.Name = "lsb_listaDeCortes";
             lsb_listaDeCortes.Size = new Size(410, 144);
             lsb_listaDeCortes.TabIndex = 0;
@@ -49,7 +49,7 @@
             // btn_modificar
             // 
             btn_modificar.BackColor = Color.Black;
-            btn_modificar.Location = new Point(168, 348);
+            btn_modificar.Location = new Point(101, 362);
             btn_modificar.Name = "btn_modificar";
             btn_modificar.Size = new Size(130, 56);
             btn_modificar.TabIndex = 1;
@@ -60,7 +60,7 @@
             // btn_cancelar
             // 
             btn_cancelar.BackColor = Color.Black;
-            btn_cancelar.Location = new Point(448, 348);
+            btn_cancelar.Location = new Point(381, 362);
             btn_cancelar.Name = "btn_cancelar";
             btn_cancelar.Size = new Size(130, 56);
             btn_cancelar.TabIndex = 2;
@@ -71,7 +71,7 @@
             // txb_nuevoNombre
             // 
             txb_nuevoNombre.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            txb_nuevoNombre.Location = new Point(168, 303);
+            txb_nuevoNombre.Location = new Point(101, 303);
             txb_nuevoNombre.Name = "txb_nuevoNombre";
             txb_nuevoNombre.Size = new Size(410, 30);
             txb_nuevoNombre.TabIndex = 3;
@@ -80,7 +80,7 @@
             // 
             lb_tituloModificar.AutoSize = true;
             lb_tituloModificar.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            lb_tituloModificar.Location = new Point(168, 38);
+            lb_tituloModificar.Location = new Point(101, 34);
             lb_tituloModificar.Name = "lb_tituloModificar";
             lb_tituloModificar.Size = new Size(410, 37);
             lb_tituloModificar.TabIndex = 4;
@@ -90,19 +90,19 @@
             // 
             lb_nuevaModificacion.AutoSize = true;
             lb_nuevaModificacion.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lb_nuevaModificacion.Location = new Point(168, 272);
+            lb_nuevaModificacion.Location = new Point(101, 261);
             lb_nuevaModificacion.Name = "lb_nuevaModificacion";
             lb_nuevaModificacion.Size = new Size(219, 28);
             lb_nuevaModificacion.TabIndex = 5;
             lb_nuevaModificacion.Text = "Ingresar nuevo nombre:";
             lb_nuevaModificacion.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // Form1
+            // FrmModificarCorte
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Maroon;
-            ClientSize = new Size(762, 450);
+            ClientSize = new Size(624, 450);
             Controls.Add(lb_nuevaModificacion);
             Controls.Add(lb_tituloModificar);
             Controls.Add(txb_nuevoNombre);
@@ -110,7 +110,7 @@
             Controls.Add(btn_modificar);
             Controls.Add(lsb_listaDeCortes);
             ForeColor = Color.White;
-            Name = "Form1";
+            Name = "FrmModificarCorte";
             Text = "Modificar Corte";
             Load += Form1_Load;
             ResumeLayout(false);

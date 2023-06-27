@@ -16,7 +16,7 @@ namespace ClasesCarniceria
             // Inicializo
             listaProductos = DB_Carne.Leer_carnes();
             listaVendedores = DB_vendedor.Leer_vendedores();
-            tiposCortes = ExtraerCortesDeListaProductos(listaProductos);
+            tiposCortes = DB_Corte.Leer_cortes();
         }
 
 
@@ -57,18 +57,6 @@ namespace ClasesCarniceria
             {
                 return null;
             }
-        }
-
-        private static List<string> ExtraerCortesDeListaProductos(List<Carne> lista)
-        {
-            List<string> cortes = new List<string>();
-
-            foreach (var carne in lista)
-            {
-                cortes.Add(carne.TipoDeCorte);
-            }
-
-            return cortes;
         }
 
         public static int IndexCorteCarne(string tipoCorte)

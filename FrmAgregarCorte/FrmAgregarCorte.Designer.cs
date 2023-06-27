@@ -39,7 +39,7 @@
             lb_AgregarCorte.AutoSize = true;
             lb_AgregarCorte.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             lb_AgregarCorte.ForeColor = Color.White;
-            lb_AgregarCorte.Location = new Point(158, 110);
+            lb_AgregarCorte.Location = new Point(63, 90);
             lb_AgregarCorte.Name = "lb_AgregarCorte";
             lb_AgregarCorte.Size = new Size(419, 41);
             lb_AgregarCorte.TabIndex = 0;
@@ -48,7 +48,7 @@
             // txb_agregarCorteNuevo
             // 
             txb_agregarCorteNuevo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            txb_agregarCorteNuevo.Location = new Point(158, 212);
+            txb_agregarCorteNuevo.Location = new Point(63, 170);
             txb_agregarCorteNuevo.Name = "txb_agregarCorteNuevo";
             txb_agregarCorteNuevo.PlaceholderText = "Ingresar aqui...";
             txb_agregarCorteNuevo.Size = new Size(453, 34);
@@ -59,9 +59,9 @@
             btn_cancelar.BackColor = Color.Black;
             btn_cancelar.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             btn_cancelar.ForeColor = Color.White;
-            btn_cancelar.Location = new Point(441, 312);
+            btn_cancelar.Location = new Point(346, 259);
             btn_cancelar.Name = "btn_cancelar";
-            btn_cancelar.Size = new Size(170, 60);
+            btn_cancelar.Size = new Size(170, 41);
             btn_cancelar.TabIndex = 2;
             btn_cancelar.Text = "Cancelar";
             btn_cancelar.UseVisualStyleBackColor = false;
@@ -72,9 +72,9 @@
             btn_aceptar.BackColor = Color.Black;
             btn_aceptar.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             btn_aceptar.ForeColor = Color.White;
-            btn_aceptar.Location = new Point(158, 312);
+            btn_aceptar.Location = new Point(63, 259);
             btn_aceptar.Name = "btn_aceptar";
-            btn_aceptar.Size = new Size(170, 60);
+            btn_aceptar.Size = new Size(170, 41);
             btn_aceptar.TabIndex = 3;
             btn_aceptar.Text = "Agregar";
             btn_aceptar.UseVisualStyleBackColor = false;
@@ -85,7 +85,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Maroon;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(580, 326);
             Controls.Add(btn_aceptar);
             Controls.Add(btn_cancelar);
             Controls.Add(txb_agregarCorteNuevo);
