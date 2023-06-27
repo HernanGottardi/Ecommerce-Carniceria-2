@@ -9,15 +9,9 @@ namespace formularios
         private decimal monto;
         private string mail;
 
-        // 1
-        private Thread hiloActualizacionMonto;
 
         public string Mail { get => mail; set => mail = value; }
         public decimal Monto { get => monto; set => monto = value; }
-
-        // 2
-        public event EventHandler MontoActualizado;
-
 
         public FrmElegirProducto()
         {
@@ -34,65 +28,68 @@ namespace formularios
             this.Mail = mail;
         }
 
+        // 1
+        private Thread hiloActualizacionMonto;
 
-        // ##########
+        public event MontoActualizadoEventHandler MontoActualizado;
+
+        public delegate void MontoActualizadoEventHandler(object sender, EventArgs e);
+
+        // ##########################################################################################################
         private void IniciarHiloActualizacion()
         {
             hiloActualizacionMonto = new Thread(ActualizarMonto);
             hiloActualizacionMonto.Start();
         }
+
         // Método que dispara el evento
         private void ActualizarMonto()
         {
-
             while (true)
             {
-
                 // Dispara el evento MontoActualizado
                 MontoActualizado?.Invoke(this, EventArgs.Empty);
 
                 // Espera un tiempo antes de la siguiente actualización
-                Thread.Sleep(2000);
+                Thread.Sleep(1000);
             }
         }
 
         // Método para manejar el evento MontoActualizado y actualizar el Label
-        private void MontoActualizadoEventHandler(object sender, EventArgs e)
+        private void OnMontoActualizado(object sender, EventArgs e)
         {
             // Actualiza el texto del Label con el nuevo monto
             if (lb_montoActual.InvokeRequired)
             {
-                Action<object, EventArgs> montoActualizarEventHandler = MontoActualizadoEventHandler;
-                lb_montoActual.Invoke(montoActualizarEventHandler, sender, e);
-
+                MontoActualizadoEventHandler handler = OnMontoActualizado;
+                lb_montoActual.Invoke(handler, sender, e);
             }
             else
             {
                 lb_montoActual.Text = "Monto actual: $" + Monto.ToString();
             }
-
         }
-
-        // ##########
-
-        /// <summary>
-        /// Aplico las configuraciones necesarias para los controladores.
-        /// </summary>
 
         private void FrmElegirProducto_Load_1(object sender, EventArgs e)
         {
 
             this.ConfigurarListaProductos();
             this.ConfiguracionComboBoxPagos();
-            //this.rellenarTitulo(this.mail, this.monto);
 
             // Asocia el método MontoActualizadoEventHandler con el evento MontoActualizado
-            MontoActualizado += MontoActualizadoEventHandler;
+            MontoActualizado += OnMontoActualizado;
 
             // Inicia el hilo de actualización
             IniciarHiloActualizacion();
 
         }
+
+        // #########################################################################################################
+
+        /// <summary>
+        /// Aplico las configuraciones necesarias para los controladores.
+        /// </summary>
+
 
         /// <summary>
         /// Llenar list box con los elementos de la lista productos.
