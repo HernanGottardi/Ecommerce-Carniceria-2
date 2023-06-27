@@ -1,8 +1,9 @@
-﻿using System.Text;
+﻿using ClasesCarniceria.Interfaces;
+using System.Text;
 
 namespace ClasesCarniceria
 {
-    public class Factura
+    public class Factura: IMostrar
     {
         // lo cambie a privado porq tenemos las propiedades
         private string mailCliente;
@@ -17,7 +18,7 @@ namespace ClasesCarniceria
         public decimal PrecioFinal { get => precioFinal; set => precioFinal = value; }
         public string CorteDeCarne { get => corteDeCarne; set => corteDeCarne = value; }
         public decimal PrecioPorKilo { get => precioPorKilo; set => precioPorKilo = value; }
-        public DateTime FechaFactura { get => fechaFactura; }
+        public DateTime FechaFactura { get => fechaFactura; set => fechaFactura = value; }
 
         public Factura(string mail, int cantidadKilos, decimal precioPorKilo, decimal precio, string corteDeCarne, DateTime fecha)
         {

@@ -47,7 +47,7 @@ namespace formularios
                     }
 
                 }
-                catch (CorreoCantidadDeCaracteresException ex)
+                catch (CantidadDeCaracteresException ex)
                 {
                     MessageBox.Show(ex.Message);
                 }

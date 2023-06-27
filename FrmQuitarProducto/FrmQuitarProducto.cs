@@ -52,7 +52,7 @@ namespace formularios
             {
                 string corte = this.lsb_listaProductos.SelectedItem.ToString();
                 Carne c = DB_Carne.Leer_carne(corte);
-                this.txb_detallar.Text = c.Mostrar_carne();
+                this.txb_detallar.Text = c.Mostrar();
             }
         }
     }

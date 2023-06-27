@@ -109,11 +109,11 @@ namespace ClasesCarniceria.SQL
                 {
                     command.Parameters.Clear();
                     connection.Open();
-                    command.CommandText = $"UPDATE Carne SET Carne.Cantidad_kilos = @kilos";
+                    command.CommandText = $"UPDATE Carne SET Carne.Cantidad_kilos = @kilos where Carne.Tipo_de_corte = @corte";
                     command.Parameters.AddWithValue("@kilos", nuevaCantidad);
+                    command.Parameters.AddWithValue("@corte", c.TipoDeCorte);
                     command.ExecuteNonQuery();
                     return true;
-
                 }
                 catch (Exception) { throw; }
                 finally { connection.Close(); }
@@ -163,8 +163,9 @@ namespace ClasesCarniceria.SQL
                 {
                     command.Parameters.Clear();
                     connection.Open();
-                    command.CommandText = $"UPDATE Carne SET Carne.Precio_por_kilo = @precio";
+                    command.CommandText = $"UPDATE Carne SET Carne.Precio_por_kilo = @precio where Carne.Tipo_de_corte = @corte";
                     command.Parameters.AddWithValue("@precio", nuevoPrecio);
+                    command.Parameters.AddWithValue("@corte", c.TipoDeCorte);
                     command.ExecuteNonQuery();
                     return true;
                 }

@@ -6,6 +6,7 @@ namespace formularios
 
     public partial class FrmHistorial : Form
     {
+        private static string ruta = AppDomain.CurrentDomain.BaseDirectory;
 
         private List<Factura> listaFacturasHoy;
         private List<Factura> listaFacturasTodas;
@@ -24,6 +25,7 @@ namespace formularios
         public FrmHistorial(List<Factura> lista) : this()
         {
             this.ListaFacturasHoy = lista;
+            this.ListaFacturasTodas = DB_Factura.Leer_facturas();
         }
 
 
@@ -69,18 +71,27 @@ namespace formularios
         }
         private void btn_archivoTexto_Click(object sender, EventArgs e)
         {
-            List <Factura> ListaFacturasTodas = DB_Factura.Leer_facturas();
-            string rutaArchivo = "C:/Users/herni/Desktop/facturas.txt"; // Ruta del archivo existente
 
-            using (StreamWriter escritor = new StreamWriter(rutaArchivo, true))
+            string nombre = "HistorialFacturas.txt";
+            
+            string rutaCompleta = Path.Combine(ruta, nombre);
+            try 
             {
-                foreach (Factura f in ListaFacturasTodas)
+                using (StreamWriter escritor = new StreamWriter(rutaCompleta, false))
                 {
-                    escritor.WriteLine(f.Mostrar());
+                    foreach (Factura f in this.ListaFacturasTodas)
+                    {
+                        escritor.WriteLine(f.Mostrar());
+                    }
                 }
+                MessageBox.Show("El archivo se cargo con exito!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al crear el archivo: {ex.Message}");
             }
 
-            MessageBox.Show("El archivo se cargo con exito!");
+            
         }
     }
 }

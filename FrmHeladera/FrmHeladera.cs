@@ -10,7 +10,7 @@ namespace formularios
 
         private List<Factura> listaFacturas;
         public List<Factura> ListaFacturas { get => listaFacturas; set => listaFacturas = value; }
-
+       
 
         public FrmHeladera()
         {
@@ -63,7 +63,7 @@ namespace formularios
                 Carne c = DB_Carne.Leer_carne(tipoDeCorteSelec);
                 if (c != null)
                 {
-                    this.txb_detallarProducto.Text = c.Mostrar_carne();
+                    this.txb_detallarProducto.Text = c.Mostrar();
                 }
             }
         }

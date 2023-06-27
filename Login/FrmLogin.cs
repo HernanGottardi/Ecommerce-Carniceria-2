@@ -1,5 +1,6 @@
 using ClasesCarniceria;
 using ClasesCarniceria.Excepctions;
+using ClasesCarniceria.MetodosDeExt;
 
 namespace formularios
 {
@@ -60,38 +61,29 @@ namespace formularios
 
             try
             {
-                Vendedor vendedor = new Vendedor();
-
-                // validamos que exista.
-                if (!vendedor.MailClienteExiste(mail) && !Carniceria.MailVendedorExiste(mail))
+                // Validacion de formato MAIL-CONTRASEÑA y de que tipo de USUARIO es.
+                if (mail.ValidarCorreoElectronico() && contraseña.ValidarContraseña())
                 {
-                    MessageBox.Show("El usuario ingresado no existe!");
-                }
-                else
-                {
-                    // Validacion de formato MAIL-CONTRASEÑA y de que tipo de USUARIO es.
-                    if (mail.ValidarCorreoElectronico() && contraseña.CantidadCaracteresEnRango(8, 10))
+                    if (DB_Cliente.Leer_cliente(mail, contraseña) != null)
                     {
-                        if (DB_Cliente.Leer_cliente(mail, contraseña) != null)
-                        {
-                            FrmVenta paginaVenta = new FrmVenta(mail, contraseña);
-                            paginaVenta.Show();
-                            this.Hide();
-                        }
-                        else if (DB_vendedor.Leer_vendedor(mail, contraseña) != null)
-                        {
-                            FrmHeladera paginaHeladera = new FrmHeladera(mail);
-                            paginaHeladera.Show(this);
-                            this.Hide();
-                        }
-                        else 
-                        {
-                            MessageBox.Show("Contraseña incorrecta!");
-                        }
+                        FrmVenta paginaVenta = new FrmVenta(mail, contraseña);
+                        paginaVenta.Show();
+                        this.Hide();
+                    }
+                    else if (DB_vendedor.Leer_vendedor(mail, contraseña) != null)
+                    {
+                        FrmHeladera paginaHeladera = new FrmHeladera(mail);
+                        paginaHeladera.Show(this);
+                        this.Hide();
                     }
                 }
+                else 
+                {
+                    MessageBox.Show("El usuario ingresado no existen");
+                }
+                
             }
-            catch (CorreoCantidadDeCaracteresException ex)
+            catch (TextoNuloException ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -99,11 +91,14 @@ namespace formularios
             {
                 MessageBox.Show(ex.Message);
             }
-            catch (TextoNuloException ex)
+            catch (ContraseñaCaracteresInvalidos ex)
             {
                 MessageBox.Show(ex.Message);
             }
+            catch (CantidadDeCaracteresException ex)
+            {
+                MessageBox.Show(ex.Message);
+            } 
         }
-
     }
 }

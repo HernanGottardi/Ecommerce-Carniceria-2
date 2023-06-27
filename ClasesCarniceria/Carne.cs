@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClasesCarniceria
 {
-    public class Carne: IMostrarProductos
+    public class Carne: IMostrarProductos, IMostrar
     {
         private int cantidadKilos;
         private string tipoDeCorte;
@@ -16,7 +16,6 @@ namespace ClasesCarniceria
 
         private Carne()
         {
-            // Inicializar propiedades u otras operaciones de configuración
         }
 
         public Carne(int cantidadKilos, string tipoDeCorte, decimal precioPorKilo)
@@ -33,7 +32,7 @@ namespace ClasesCarniceria
         /// cadena de texto que representa las caracteristicas 
         /// del objeto instanciado del tipo Carne.
         /// </returns>
-        public string Mostrar_carne()
+        public string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 

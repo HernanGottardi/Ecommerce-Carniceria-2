@@ -135,7 +135,6 @@ namespace ClasesCarniceria
                 if (c.Mail == mail) 
                 {
                     return true;
-                    break;
                 }
             }
             return false;

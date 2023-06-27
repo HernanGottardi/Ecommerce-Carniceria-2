@@ -1,5 +1,6 @@
 using ClasesCarniceria;
 using ClasesCarniceria.Excepctions;
+using ClasesCarniceria.MetodosDeExt;
 
 namespace formularios
 {
@@ -46,7 +47,7 @@ namespace formularios
                     }
                 }
             }
-            catch (CorreoCantidadDeCaracteresException ex)
+            catch (CantidadDeCaracteresException ex)
             {
                 MessageBox.Show(ex.Message);
             }

@@ -85,7 +85,7 @@ namespace formularios
                 Carne c = DB_Carne.Leer_carne(tipoDeCorteSelec);
                 if (c != null) 
                 {
-                    this.txb_detallarProducto.Text = c.Mostrar_carne();
+                    this.txb_detallarProducto.Text = c.Mostrar();
                 }
             }
         }

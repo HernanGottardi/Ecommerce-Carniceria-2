@@ -1,15 +1,17 @@
 ﻿using ClasesCarniceria.Excepctions;
+using System.Linq.Expressions;
 using System.Text.RegularExpressions;
 
-namespace ClasesCarniceria
+namespace ClasesCarniceria.MetodosDeExt
 {
     public static class ControlarString
     {
         public static bool CantidadCaracteresEnRango(this string texto, int minimo, int mayor)
         {
+
             if (string.IsNullOrEmpty(texto))
             {
-                throw new TextoNuloException("Texto vacio.");
+                throw new TextoNuloException("Campo vacio.");
 
             }
             if (texto.Length >= minimo && texto.Length <= mayor)
@@ -18,8 +20,9 @@ namespace ClasesCarniceria
             }
             else
             {
-                return false;
+                throw new CantidadDeCaracteresException("Datos incorrectos.");
             }
+
         }
 
         public static int ContarCantidadMayusculas(this string texto)
@@ -115,23 +118,40 @@ namespace ClasesCarniceria
 
         public static bool ValidarCorreoElectronico(this string correo)
         {
-            if (CantidadCaracteresEnRango(correo, 15, 30) == true)
+
+            if (correo.CantidadCaracteresEnRango(15, 30) == true)
             {
-                string patron = @"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$";
+                string patron = @"^[a-zA-Z0-9_.+-]+@[a-zA-Z]+\.(com)$";
                 Regex regex = new Regex(patron);
-                if (regex.IsMatch(correo)) 
-                { 
-                    return true;
-                } 
-                else 
+                if (regex.IsMatch(correo))
                 {
-                    throw new CorreoCaracteresInvalidos($"El correo '{correo}' contiene caracteres invalidos");
+                    return true;
+                }
+                else
+                {
+                    throw new CorreoCaracteresInvalidos($"El correo ingreso: '{correo}' no cumple con el formato.");
                 }
             }
-            else 
+            else
             {
-                throw new CorreoCantidadDeCaracteresException($"El correo '{correo}' debe tener entre 15 y 30 caracteres!");
-            }   
+                throw new CantidadDeCaracteresException($"El 'Correo Electronico' debe estar en el rango {15}-{30}");
+            }
+        }
+
+        public static bool ValidarContraseña(this string contrasena)
+        {
+            if (contrasena.CantidadCaracteresEnRango(8, 20))
+            {
+                if (contrasena.Contains(" "))
+                {
+                    throw new ContraseñaCaracteresInvalidos($"La contraseña '{contrasena}' no debe contener espacios");
+                }
+                return true;
+            }
+            else
+            {
+                throw new CantidadDeCaracteresException($"La 'Contraseña' debe estar en el rango {8}-{20}");
+            }
         }
     }
 }

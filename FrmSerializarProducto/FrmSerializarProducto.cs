@@ -1,5 +1,6 @@
 using ClasesCarniceria;
 using ClasesCarniceria.Excepctions;
+using ClasesCarniceria.Serializacion;
 using ClasesCarniceria.SQL;
 using System.Collections.Generic;
 

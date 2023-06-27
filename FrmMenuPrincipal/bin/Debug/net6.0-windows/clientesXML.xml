@@ -1,43 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cliente>
-    <Contraseña>12345678</Contraseña>
     <Mail>hernannn@gmail.com</Mail>
+    <Contraseña>12345678</Contraseña>
     <CantidadDinero>5000</CantidadDinero>
   </Cliente>
   <Cliente>
-    <Contraseña>12345678</Contraseña>
     <Mail>Felipeeee@gmail.com</Mail>
+    <Contraseña>12345678</Contraseña>
     <CantidadDinero>3000</CantidadDinero>
   </Cliente>
   <Cliente>
-    <Contraseña>12345678</Contraseña>
     <Mail>LeonelMessi@gmail.com</Mail>
-    <CantidadDinero>34545</CantidadDinero>
+    <Contraseña>12345678</Contraseña>
+    <CantidadDinero>45435</CantidadDinero>
   </Cliente>
   <Cliente>
-    <Contraseña>12345678</Contraseña>
     <Mail>Maradonaaaa@gmail.com</Mail>
+    <Contraseña>12345678</Contraseña>
     <CantidadDinero>20600</CantidadDinero>
   </Cliente>
   <Cliente>
-    <Contraseña>12345678</Contraseña>
     <Mail>RicardoFort@gmail.com</Mail>
+    <Contraseña>12345678</Contraseña>
     <CantidadDinero>8900</CantidadDinero>
   </Cliente>
   <Cliente>
-    <Contraseña>12345678</Contraseña>
     <Mail>susanaGimenez@gmail.com</Mail>
+    <Contraseña>12345678</Contraseña>
     <CantidadDinero>34567</CantidadDinero>
   </Cliente>
   <Cliente>
-    <Contraseña>87654321</Contraseña>
     <Mail>homerosimpson@gmail.com</Mail>
-    <CantidadDinero>400</CantidadDinero>
+    <Contraseña>87654321</Contraseña>
+    <CantidadDinero>4543</CantidadDinero>
   </Cliente>
   <Cliente>
-    <Contraseña>12345678</Contraseña>
     <Mail>steveJobs@gmail.com</Mail>
+    <Contraseña>12345678</Contraseña>
     <CantidadDinero>54356</CantidadDinero>
+  </Cliente>
+  <Cliente>
+    <Mail>jupiter@gmail.com</Mail>
+    <Contraseña>jupiter123</Contraseña>
+    <CantidadDinero>0</CantidadDinero>
   </Cliente>
 </ArrayOfCliente>

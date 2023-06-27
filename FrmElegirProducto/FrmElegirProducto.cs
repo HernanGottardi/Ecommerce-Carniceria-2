@@ -138,7 +138,7 @@ namespace formularios
                     // Aca lo que hago es fijar en la lista el elemento encontrado.
                     lsb_listaProductos.SetSelected(indiceEncontrado, true);
                     Carne c = Carniceria.listaProductos[indiceEncontrado];
-                    this.txb_detalles.Text = c.Mostrar_carne();
+                    this.txb_detalles.Text = c.Mostrar();
                 }
                 else
                 {
@@ -224,7 +224,7 @@ namespace formularios
                                     this.Monto -= res;
                                     // actualizo informacion en pantalla.
                                     //this.rellenarTitulo(this.mail, this.monto);
-                                    this.txb_detalles.Text = carneSelec.Mostrar_carne();
+                                    this.txb_detalles.Text = carneSelec.Mostrar();
                                     this.ConfigurarListaProductos();
                                 }
                             }
@@ -245,7 +245,7 @@ namespace formularios
             Carne c = Carniceria.BuscarCarnePorCorte(corteCarne);
             if (c != null)
             {
-                this.txb_detalles.Text = c.Mostrar_carne();
+                this.txb_detalles.Text = c.Mostrar();
             }
         }
 

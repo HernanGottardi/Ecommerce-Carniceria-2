@@ -1,5 +1,6 @@
 using ClasesCarniceria;
 using ClasesCarniceria.Excepctions;
+using ClasesCarniceria.MetodosDeExt;
 
 namespace formularios
 {
@@ -28,7 +29,7 @@ namespace formularios
                     
                     if (!vendedor.MailClienteExiste(correo) && !Carniceria.MailVendedorExiste(correo))
                     {
-                        if (correo.ValidarCorreoElectronico() == true && contraseña.CantidadCaracteresEnRango(8, 10))
+                        if (correo.ValidarCorreoElectronico() == true && contraseña.ValidarContraseña())
                         {
                             MessageBox.Show("Tu Registro salio exitoso!");
                             Cliente c = new Cliente(correo, contraseña);
@@ -50,7 +51,7 @@ namespace formularios
 
                     if (!vendedor.MailClienteExiste(correo) && !Carniceria.MailVendedorExiste(correo))
                     {
-                        if (correo.ValidarCorreoElectronico() == true && contraseña.CantidadCaracteresEnRango(8, 10))
+                        if (correo.ValidarCorreoElectronico() == true && contraseña.ValidarContraseña())
                         {
                             MessageBox.Show("Tu Registro salio exitoso!");
                             Vendedor v = new Vendedor(correo, contraseña);
@@ -72,7 +73,11 @@ namespace formularios
                     MessageBox.Show("No seleccionaste ningun tipo de usuario!");
                 }
             }
-            catch (CorreoCantidadDeCaracteresException ex)
+            catch (TextoNuloException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            catch (ContraseñaCaracteresInvalidos ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -80,10 +85,10 @@ namespace formularios
             {
                 MessageBox.Show(ex.Message);
             }
-            catch (TextoNuloException ex)
+            catch (CantidadDeCaracteresException ex)
             {
                 MessageBox.Show(ex.Message);
-            }
+            }   
         }
 
         private void btn_cancelar_Click(object sender, EventArgs e)

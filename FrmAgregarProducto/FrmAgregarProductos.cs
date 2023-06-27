@@ -26,16 +26,24 @@ namespace formularios
             decimal precio = this.nud_precioPorKilogramo.Value;
             int cantidad = (int)this.nud_cantidadKilogramos.Value;
 
-            nuevaCarne = new Carne(cantidad, corte, precio);
-            if (corte != null && precio > 0 && cantidad > 0)
+            try 
             {
-                this.DialogResult = DialogResult.OK;
-                DB_Carne.Agregar_carne(nuevaCarne);
+                nuevaCarne = new Carne(cantidad, corte, precio);
+                if (corte != null && precio > 0 && cantidad > 0)
+                {
+                    DB_Carne.Agregar_carne(nuevaCarne);
+                    this.DialogResult = DialogResult.OK;
+                }
+                else
+                {
+                    MessageBox.Show("Error, algunos datos no fueron rellenos.");
+                }
             }
-            else
+            catch (Exception ex) 
             {
-                MessageBox.Show("Error, algunos datos no fueron rellenos.");
+                MessageBox.Show(ex.Message);
             }
+            
 
         }
 

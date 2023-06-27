@@ -7,15 +7,15 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace ClasesCarniceria
+namespace ClasesCarniceria.Serializacion
 {
 
-    public class SerializarDeserializar <T>
+    public class SerializarDeserializar<T>
     {
         private static string ruta = AppDomain.CurrentDomain.BaseDirectory;
 
         // SERIALIZADOR XML
-        
+
         public static void Serializar_lista_XML<T>(List<T> lista, string nombreArchivo)
         {
             string nombreArchivoCompleto = @"\" + nombreArchivo + ".xml";
@@ -24,7 +24,7 @@ namespace ClasesCarniceria
             using (StreamWriter streamWriter = new StreamWriter(rutaCompleta))
             {
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<T>));
-                xmlSerializer.Serialize(streamWriter, lista);        
+                xmlSerializer.Serialize(streamWriter, lista);
             }
         }
 
@@ -52,7 +52,7 @@ namespace ClasesCarniceria
                     List<T> lista = (List<T>)xmlSerializer.Deserialize(streamReader);
                     return lista;
                 }
-            } 
+            }
             else
             {
                 throw new ArchivoNoEncontradoException($"El archivo {nombreArchivo} todavia no fue serializado.");
@@ -71,7 +71,7 @@ namespace ClasesCarniceria
         }
 
         // Serializar JSON
-        public static void Serializar_lista_JSON<T>(List<T> lista, string nombreArchivo) 
+        public static void Serializar_lista_JSON<T>(List<T> lista, string nombreArchivo)
         {
             string json = JsonSerializer.Serialize(lista);
             File.WriteAllText(ruta + @"\" + nombreArchivo + ".json", json);
@@ -92,7 +92,7 @@ namespace ClasesCarniceria
             if (File.Exists(rutaEntera))
             {
                 string json = File.ReadAllText(rutaEntera);
-                List<T> listaAux = (List<T>)JsonSerializer.Deserialize<List<T>>(json);
+                List<T> listaAux = JsonSerializer.Deserialize<List<T>>(json);
                 return listaAux;
             }
             else
@@ -111,10 +111,10 @@ namespace ClasesCarniceria
                 T objAux = JsonSerializer.Deserialize<T>(json);
                 return objAux;
             }
-            else 
+            else
             {
-                throw new ArchivoNoEncontradoException($"El archivo {nombreArchivo} todavia no fue serializado.");  
-            }      
+                throw new ArchivoNoEncontradoException($"El archivo {nombreArchivo} todavia no fue serializado.");
+            }
         }
     }
 }
