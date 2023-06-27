@@ -1,4 +1,5 @@
 using ClasesCarniceria;
+using ClasesCarniceria.SQL;
 
 namespace formularios
 {
@@ -15,7 +16,7 @@ namespace formularios
         private void ConfigurarListBoxProductos()
         {
             lsb_listaProductos.Items.Clear();
-            foreach (var item in Carniceria.listaProductos)
+            foreach (Carne item in DB_Carne.Leer_carnes())
             {
                 this.lsb_listaProductos.Items.Add(item.TipoDeCorte);
             }
@@ -31,14 +32,11 @@ namespace formularios
             if (this.lsb_listaProductos.SelectedItem != null)
             {
                 string corteSeleccionado = this.lsb_listaProductos.SelectedItem.ToString();
-                int indexProducto = Carniceria.IndexCarne(corteSeleccionado);
-                if (indexProducto != -1)
+                Carne c = DB_Carne.Leer_carne(corteSeleccionado);
+                if (c != null)
                 {
-                    Carne c = Carniceria.listaProductos[indexProducto];
-                    if (Carniceria.listaProductos.Remove(c))
-                    {
-                        this.DialogResult = DialogResult.OK;
-                    }
+                    DB_Carne.Borrar_carne(c);
+                    this.DialogResult = DialogResult.OK;     
                 }
             }
         }
@@ -53,7 +51,7 @@ namespace formularios
             if (this.lsb_listaProductos.SelectedItem != null)
             {
                 string corte = this.lsb_listaProductos.SelectedItem.ToString();
-                Carne c = Carniceria.BuscarCarnePorCorte(corte);
+                Carne c = DB_Carne.Leer_carne(corte);
                 this.txb_detallar.Text = c.Mostrar_carne();
             }
         }

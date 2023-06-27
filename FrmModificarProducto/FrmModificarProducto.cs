@@ -1,4 +1,5 @@
 using ClasesCarniceria;
+using ClasesCarniceria.SQL;
 
 namespace formularios
 {
@@ -18,23 +19,21 @@ namespace formularios
             if (this.lsb_listaProductos.SelectedItem != null)
             {
                 string tipoDeCorteABuscar = this.lsb_listaProductos.SelectedItem.ToString();
-                int index = Carniceria.IndexCarne(tipoDeCorteABuscar);
 
-                if (index != -1)
+                Carne c = DB_Carne.Leer_carne(tipoDeCorteABuscar);
+
+                if (c != null)
                 {
-                    Carne carne = Carniceria.listaProductos[index];
-
                     string tipoDeCorte = this.cb_tipoCorte.Text.ToString();
-                    carne.TipoDeCorte = tipoDeCorte;
-
                     decimal precioPorKilo = this.nud_precioKilo.Value;
-                    carne.PrecioPorKilo = precioPorKilo;
-
                     int cantidadKilos = (int)this.nud_cantidadKilos.Value;
-                    carne.CantidadKilos = cantidadKilos;
 
                     if (tipoDeCorte != null && precioPorKilo > 0 && cantidadKilos > 0)
                     {
+                        DB_Carne.Modificar_Corte(c, tipoDeCorte);
+                        DB_Carne.Modificar_precio(c, precioPorKilo);
+                        DB_Carne.Modificar_CantidadKilos(c, cantidadKilos);
+                        configurarListBoxProductos();
                         this.DialogResult = DialogResult.OK;
                     }
                     else
@@ -52,7 +51,7 @@ namespace formularios
         private void configurarListBoxProductos()
         {
             this.lsb_listaProductos.Items.Clear();
-            foreach (var item in Carniceria.listaProductos)
+            foreach (Carne item in DB_Carne.Leer_carnes())
             {
                 this.lsb_listaProductos.Items.Add(item.TipoDeCorte);
             }
@@ -60,7 +59,7 @@ namespace formularios
 
         private void ConfigurarComboBoxCortesCarnes()
         {
-            foreach (var item in Carniceria.tiposCortes)
+            foreach (string item in DB_Corte.Leer_cortes())
             {
                 cb_tipoCorte.Items.Add(item);
             }
@@ -83,11 +82,9 @@ namespace formularios
             if (this.lsb_listaProductos.SelectedItem != null)
             {
                 string tipoDeCorteSelec = this.lsb_listaProductos.SelectedItem.ToString();
-                int index = Carniceria.IndexCarne(tipoDeCorteSelec);
-
-                if (index != -1)
+                Carne c = DB_Carne.Leer_carne(tipoDeCorteSelec);
+                if (c != null) 
                 {
-                    Carne c = Carniceria.listaProductos[index];
                     this.txb_detallarProducto.Text = c.Mostrar_carne();
                 }
             }

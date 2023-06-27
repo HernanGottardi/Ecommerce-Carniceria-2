@@ -1,4 +1,5 @@
 using ClasesCarniceria;
+using ClasesCarniceria.SQL;
 
 namespace formularios
 {
@@ -29,6 +30,7 @@ namespace formularios
             if (corte != null && precio > 0 && cantidad > 0)
             {
                 this.DialogResult = DialogResult.OK;
+                DB_Carne.Agregar_carne(nuevaCarne);
             }
             else
             {
@@ -44,7 +46,7 @@ namespace formularios
 
         private void FrmAgregarProductos_Load(object sender, EventArgs e)
         {
-            foreach (var cortes in Carniceria.tiposCortes)
+            foreach (var cortes in DB_Corte.Leer_cortes())
             {
                 this.cb_tipoDeCorte.Items.Add(cortes);
             }

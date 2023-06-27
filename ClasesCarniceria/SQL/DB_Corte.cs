@@ -108,7 +108,7 @@ namespace ClasesCarniceria.SQL
                 {
                     command.Parameters.Clear();
                     connection.Open();
-                    command.CommandText = $"UPDATE Corte SET Corte.tipo_de_corte = @corte where Corte.tipo_de_corte = @tipo_corte_actual";
+                    command.CommandText = $"UPDATE Corte SET Corte.tipo_de_corte = @corte WHERE Corte.tipo_de_corte = @tipo_corte_actual";
                     command.Parameters.AddWithValue("@corte", nuevo_tipo_corte);
                     command.Parameters.AddWithValue("@tipo_corte_actual", tipo_corte_actual);
                     command.ExecuteNonQuery();

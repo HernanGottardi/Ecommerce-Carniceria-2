@@ -34,7 +34,7 @@ namespace formularios
         public void ConfigurarListBoxProductos()
         {
             lsb_productos.Items.Clear();
-            foreach (var item in Carniceria.listaProductos)
+            foreach (var item in DB_Carne.Leer_carnes())
             {
                 this.lsb_productos.Items.Add(item.TipoDeCorte);
             }
@@ -44,7 +44,7 @@ namespace formularios
         /// </summary>
         public void ConfigurarListBoxClientes()
         {
-            lsb_productos.Items.Clear();
+            lsb_clientes.Items.Clear();
             Vendedor v = new Vendedor();
             foreach (var item in v.ListaClientes)
             {
@@ -60,11 +60,9 @@ namespace formularios
             if (this.lsb_productos.SelectedItem != null)
             {
                 string tipoDeCorteSelec = this.lsb_productos.SelectedItem.ToString();
-                int index = Carniceria.IndexCarne(tipoDeCorteSelec);
-
-                if (index != -1)
+                Carne c = DB_Carne.Leer_carne(tipoDeCorteSelec);
+                if (c != null)
                 {
-                    Carne c = Carniceria.listaProductos[index];
                     this.txb_detallarProducto.Text = c.Mostrar_carne();
                 }
             }
@@ -145,8 +143,9 @@ namespace formularios
             DialogResult resultado = form.ShowDialog();
             if (resultado == DialogResult.OK)
             {
-                Carniceria.listaProductos.Add(form.NuevaCarne());
+                //Carniceria.listaProductos.Add(form.NuevaCarne());
                 this.ConfigurarListBoxProductos();
+                MessageBox.Show("El producto se agrego con exito!");
             }
         }
         /// <summary>

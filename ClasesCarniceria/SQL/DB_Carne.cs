@@ -109,7 +109,7 @@ namespace ClasesCarniceria.SQL
                 {
                     command.Parameters.Clear();
                     connection.Open();
-                    command.CommandText = $"UPDATE Carne SET Carne.Cantidad_de_kilos = @kilos";
+                    command.CommandText = $"UPDATE Carne SET Carne.Cantidad_kilos = @kilos";
                     command.Parameters.AddWithValue("@kilos", nuevaCantidad);
                     command.ExecuteNonQuery();
                     return true;
@@ -127,32 +127,36 @@ namespace ClasesCarniceria.SQL
 
         public static bool Modificar_Corte(Carne c, string nuevoCorte)
         {
+            
             if (Corte_existe(nuevoCorte))
             {
-                throw new Exception("El 'nuevo corte' ya existe");
-            }
-            else if (Corte_existe(c.TipoDeCorte))
-            {
-                try
+                if (nuevoCorte.Equals(c.TipoDeCorte))
                 {
-                    command.Parameters.Clear();
-                    connection.Open();
-                    command.CommandText = $"UPDATE Carne SET Carne.Tipo_de_Corte = @corte";
-                    command.Parameters.AddWithValue("@corte", nuevoCorte);
-                    command.ExecuteNonQuery();
-                    return true;
+                        try
+                        {
+                            command.Parameters.Clear();
+                            connection.Open();
+                            command.CommandText = $"UPDATE Carne SET Carne.Tipo_de_Corte = @nuevocorte where Carne.Tipo_de_corte = @corte ";
+                            command.Parameters.AddWithValue("@nuevocorte", nuevoCorte);
+                            command.Parameters.AddWithValue("@corte", c.TipoDeCorte);
+                            command.ExecuteNonQuery();
+                            return true;
+                        }
+                        catch (Exception) { throw; }
+                        finally { connection.Close(); }
+                    
                 }
-                catch (Exception) { throw; }
-                finally { connection.Close(); }
+                else 
+                { 
+                    throw new Exception("El 'nuevo corte' ya existe");
+                }
             }
-            else
-            {
-                return false;
-            }
+            return false;
         }
 
         public static bool Modificar_precio(Carne c, decimal nuevoPrecio)
         {
+
             if (Corte_existe(c.TipoDeCorte))
             {
                 try
@@ -208,7 +212,7 @@ namespace ClasesCarniceria.SQL
                 {
                     connection.Open();
                     command.Parameters.Clear();
-                    command.CommandText = "DELETE from Carne where Carne.Tipo_de_carne = @corte";
+                    command.CommandText = "DELETE from Carne where Carne.Tipo_de_corte = @corte";
                     command.Parameters.AddWithValue("@corte", c.TipoDeCorte);
                     command.ExecuteNonQuery();
                 }
