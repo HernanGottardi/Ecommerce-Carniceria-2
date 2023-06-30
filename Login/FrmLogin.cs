@@ -76,12 +76,11 @@ namespace formularios
                         paginaHeladera.Show(this);
                         this.Hide();
                     }
-                }
-                else 
-                {
-                    MessageBox.Show("El usuario ingresado no existen");
-                }
-                
+                    else
+                    {
+                        MessageBox.Show("El usuario ingresado no existen");
+                    }
+                }             
             }
             catch (TextoNuloException ex)
             {

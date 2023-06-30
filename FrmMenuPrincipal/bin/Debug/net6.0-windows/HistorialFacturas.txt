@@ -174,3 +174,113 @@ Cantidad de Kilos: 1
 PRECIO FINAL: 1200
 ###########################################
 
+###########################################
+Fecha de la venta: 27/6/2023 21:08:00
+Mail del cliente: Maradonaaaa@gmail.com
+-------------------------------------------
+Corte de carne elegido: Lomo
+Precio xKg: 1200
+Cantidad de Kilos: 1
+-------------------------------------------
+PRECIO FINAL: 1200
+###########################################
+
+###########################################
+Fecha de la venta: 27/6/2023 21:08:03
+Mail del cliente: RicardoFort@gmail.com
+-------------------------------------------
+Corte de carne elegido: Tira de Asado
+Precio xKg: 2300
+Cantidad de Kilos: 1
+-------------------------------------------
+PRECIO FINAL: 2300
+###########################################
+
+###########################################
+Fecha de la venta: 27/6/2023 21:08:05
+Mail del cliente: hernannn@gmail.com
+-------------------------------------------
+Corte de carne elegido: Tira de Asado
+Precio xKg: 2300
+Cantidad de Kilos: 1
+-------------------------------------------
+PRECIO FINAL: 2300
+###########################################
+
+###########################################
+Fecha de la venta: 29/6/2023 16:28:29
+Mail del cliente: Maradonaaaa@gmail.com
+-------------------------------------------
+Corte de carne elegido: Tira de Asado
+Precio xKg: 3
+Cantidad de Kilos: 2
+-------------------------------------------
+PRECIO FINAL: 6
+###########################################
+
+###########################################
+Fecha de la venta: 29/6/2023 16:33:15
+Mail del cliente: RicardoFort@gmail.com
+-------------------------------------------
+Corte de carne elegido: Falda
+Precio xKg: 690
+Cantidad de Kilos: 2
+-------------------------------------------
+PRECIO FINAL: 1380
+###########################################
+
+###########################################
+Fecha de la venta: 29/6/2023 16:59:46
+Mail del cliente: Maradonaaaa@gmail.com
+-------------------------------------------
+Corte de carne elegido: Falda
+Precio xKg: 690
+Cantidad de Kilos: 2
+-------------------------------------------
+PRECIO FINAL: 1380
+###########################################
+
+###########################################
+Fecha de la venta: 29/6/2023 17:44:40
+Mail del cliente: Felipeeee@gmail.com
+-------------------------------------------
+Corte de carne elegido: Bife ancho
+Precio xKg: 700
+Cantidad de Kilos: 4
+-------------------------------------------
+PRECIO FINAL: 2800
+###########################################
+
+###########################################
+Fecha de la venta: 29/6/2023 17:57:13
+Mail del cliente: RicardoFort@gmail.com
+-------------------------------------------
+Corte de carne elegido: Lomo
+Precio xKg: 400
+Cantidad de Kilos: 2
+-------------------------------------------
+PRECIO FINAL: 800
+###########################################
+
+###########################################
+Fecha de la venta: 29/6/2023 17:57:25
+Mail del cliente: Felipeeee@gmail.com
+-------------------------------------------
+Corte de carne elegido: Tira de Asado
+Precio xKg: 3
+Cantidad de Kilos: 2
+-------------------------------------------
+PRECIO FINAL: 6
+###########################################
+
+###########################################
+Fecha de la venta: 29/6/2023 17:51:12
+Mail del cliente: LeonelMessi@gmail.com
+-------------------------------------------
+Corte de carne elegido: churrasco
+Precio xKg: 1000
+Cantidad de Kilos: 4
+-------------------------------------------
+PRECIO FINAL: 4000
+###########################################
+

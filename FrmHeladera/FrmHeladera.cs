@@ -9,14 +9,14 @@ namespace formularios
         public string Mail { get => mail; set => mail = value; }
 
         private List<Factura> listaFacturas;
-        public List<Factura> ListaFacturas { get => listaFacturas; set => listaFacturas = value; }
+        public List<Factura> ListaFacturasHoy { get => listaFacturas; set => listaFacturas = value; }
        
 
         public FrmHeladera()
         {
             InitializeComponent();
 
-            this.ListaFacturas = new List<Factura>();
+            this.ListaFacturasHoy = new List<Factura>();
 
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -34,7 +34,7 @@ namespace formularios
         public void ConfigurarListBoxProductos()
         {
             lsb_productos.Items.Clear();
-            foreach (var item in DB_Carne.Leer_carnes())
+            foreach (Carne item in DB_Carne.Leer_carnes())
             {
                 this.lsb_productos.Items.Add(item.TipoDeCorte);
             }
@@ -45,8 +45,7 @@ namespace formularios
         public void ConfigurarListBoxClientes()
         {
             lsb_clientes.Items.Clear();
-            Vendedor v = new Vendedor();
-            foreach (var item in v.ListaClientes)
+            foreach (Cliente item in DB_Cliente.Leer_clientes())
             {
                 this.lsb_clientes.Items.Add(item.Mail);
             }
@@ -88,28 +87,30 @@ namespace formularios
 
                 if (mailCliente != null && tipoCorte != null)
                 {
-                    int indexCarne = Carniceria.IndexCarne(tipoCorte);
-                    Carne carneSelec = Carniceria.listaProductos[indexCarne];
-
-                    Vendedor v = new Vendedor();
-                    int indexCliente = v.IndexCliente(mailCliente);
-                    Cliente clienteSelec = v.ListaClientes[indexCliente];
+                    Carne carneElegida = DB_Carne.Leer_carne(tipoCorte);
+                    Cliente clienteElegido = DB_Cliente.Leer_cliente(mailCliente);
 
                     int cantidadkilos = (int)this.nud_cantidadKilosVender.Value;
 
-                    if (cantidadkilos > 0 && cantidadkilos <= carneSelec.CantidadKilos)
+                    if (cantidadkilos > 0 && cantidadkilos <= carneElegida.CantidadKilos)
                     {
-                        decimal precio = carneSelec.PrecioPorKilo * cantidadkilos;
-                        if (precio <= clienteSelec.CantidadDinero)
+                        decimal precio = carneElegida.PrecioPorKilo * cantidadkilos;
+                        // Pregunto si el cliente puede pagar.
+                        if (precio <= clienteElegido.CantidadDinero)
                         {
-                            //MessageBox.Show("Todo salio bien y hay que descontar la plata al cliente");
-                            carneSelec.CantidadKilos -= cantidadkilos;
-                            clienteSelec.CantidadDinero -= precio;
+                            int cantidadKilosAhora = carneElegida.CantidadKilos - cantidadkilos;
+                            decimal cantidadDeDineroAhora = clienteElegido.CantidadDinero - precio;
+                            // modificar en la base de datos.
+                            DB_Carne.Modificar_CantidadKilos(carneElegida, cantidadKilosAhora);
+                            DB_Cliente.Modificar_monto_cliente(clienteElegido, cantidadDeDineroAhora);
+
+
                             // Lo agregamos al historial.
                             MessageBox.Show("Listo! Su compra ha sido realizada con exito.");
-                            Factura f = new Factura(mailCliente, cantidadkilos, carneSelec.PrecioPorKilo, precio, tipoCorte, DateTime.Now);
+                            Factura f = new Factura(mailCliente, cantidadkilos, carneElegida.PrecioPorKilo, precio, tipoCorte, DateTime.Now);
                             DB_Factura.Agregar_Factura(f);
-                            this.listaFacturas.Add(f);
+                            ListaFacturasHoy.Add(f); 
+
                         }
                         else
                         {
@@ -194,9 +195,7 @@ namespace formularios
             if (this.lsb_clientes.SelectedItem != null)
             {
                 string mailCliente = this.lsb_clientes.SelectedItem.ToString();
-                Vendedor v = new Vendedor();
-                Cliente c = v.BuscarClientePorMail(mailCliente);
-
+                Cliente c = DB_Cliente.Leer_cliente(mailCliente);
                 if (c != null)
                 {
                     this.txb_detallarCliente.Text = c.Detallar();

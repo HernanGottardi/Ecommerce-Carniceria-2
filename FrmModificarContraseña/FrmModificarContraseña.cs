@@ -36,7 +36,7 @@ namespace formularios
                 {
                     if (c != null)
                     {
-                        if (this.nuevaContraseña.CantidadCaracteresEnRango(8, 10))
+                        if (this.nuevaContraseña.ValidarContraseña())
                         {
                             if (DB_Cliente.Modificar_contraseña_cliente(this.Mail, this.NuevaContraseña))
                             {
@@ -59,6 +59,10 @@ namespace formularios
                 MessageBox.Show(ex.Message);
             }
             catch (TextoNuloException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            catch (ContraseñaCaracteresInvalidos ex) 
             {
                 MessageBox.Show(ex.Message);
             }

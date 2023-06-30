@@ -30,11 +30,18 @@ namespace formularios
 
                     if (tipoDeCorte != null && precioPorKilo > 0 && cantidadKilos > 0)
                     {
-                        DB_Carne.Modificar_Corte(c, tipoDeCorte);
-                        DB_Carne.Modificar_precio(c, precioPorKilo);
-                        DB_Carne.Modificar_CantidadKilos(c, cantidadKilos);
-                        configurarListBoxProductos();
-                        this.DialogResult = DialogResult.OK;
+                        try 
+                        {
+                            DB_Carne.Modificar_Corte(c, tipoDeCorte);
+                            DB_Carne.Modificar_precio(c, precioPorKilo);
+                            DB_Carne.Modificar_CantidadKilos(c, cantidadKilos);
+                            configurarListBoxProductos();
+                            this.DialogResult = DialogResult.OK;
+                        }
+                        catch(Exception ex) 
+                        {
+                            MessageBox.Show(ex.Message);
+                        }
                     }
                     else
                     {

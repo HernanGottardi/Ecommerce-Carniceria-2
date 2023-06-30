@@ -1,4 +1,5 @@
 using ClasesCarniceria;
+using ClasesCarniceria.SQL;
 using System.Reflection.Metadata.Ecma335;
 using System.Windows.Forms;
 
@@ -8,7 +9,6 @@ namespace formularios
     {
         private decimal monto;
         private string mail;
-
 
         public string Mail { get => mail; set => mail = value; }
         public decimal Monto { get => monto; set => monto = value; }
@@ -28,7 +28,6 @@ namespace formularios
             this.Mail = mail;
         }
 
-        // 1
         private Thread hiloActualizacionMonto;
 
         public event MontoActualizadoEventHandler MontoActualizado;
@@ -36,32 +35,35 @@ namespace formularios
         public delegate void MontoActualizadoEventHandler(object sender, EventArgs e);
 
         // ##########################################################################################################
+        // Aca inicializo la nueva tareaa
         private void IniciarHiloActualizacion()
         {
             hiloActualizacionMonto = new Thread(ActualizarMonto);
             hiloActualizacionMonto.Start();
         }
 
-        // Método que dispara el evento
+        // Este es el metodo que dispara el evento
         private void ActualizarMonto()
         {
             while (true)
             {
-                // Dispara el evento MontoActualizado
+                // disparo el evento MontoActualizado
                 MontoActualizado?.Invoke(this, EventArgs.Empty);
 
-                // Espera un tiempo antes de la siguiente actualización
+                // Hago que Espere un tiempo antes de la siguiente actualizacion
                 Thread.Sleep(1000);
             }
         }
 
-        // Método para manejar el evento MontoActualizado y actualizar el Label
+        // Metodo para manejar el evento MontoActualizado y actualizar el Label
         private void OnMontoActualizado(object sender, EventArgs e)
         {
-            // Actualiza el texto del Label con el nuevo monto
+            // si la condicion es verdadera, significa que el metodo se esta ejecutando en un hilo diferentee.
+            // entonces se necesita realizar una invocación para actualizar el control.
             if (lb_montoActual.InvokeRequired)
             {
                 MontoActualizadoEventHandler handler = OnMontoActualizado;
+                // lo invoco en el hilo principal.
                 lb_montoActual.Invoke(handler, sender, e);
             }
             else
@@ -69,27 +71,22 @@ namespace formularios
                 lb_montoActual.Text = "Monto actual: $" + Monto.ToString();
             }
         }
-
+        /// <summary>
+        /// Aplico las configuraciones necesarias para los controladores.
+        /// </summary>
         private void FrmElegirProducto_Load_1(object sender, EventArgs e)
         {
 
             this.ConfigurarListaProductos();
             this.ConfiguracionComboBoxPagos();
 
-            // Asocia el método MontoActualizadoEventHandler con el evento MontoActualizado
+            // aca asocio el metodo OnMontoActualizado con el evento MontoActualizado
             MontoActualizado += OnMontoActualizado;
 
-            // Inicia el hilo de actualización
+            // aca inicio el hilo de actualización
             IniciarHiloActualizacion();
-
         }
-
         // #########################################################################################################
-
-        /// <summary>
-        /// Aplico las configuraciones necesarias para los controladores.
-        /// </summary>
-
 
         /// <summary>
         /// Llenar list box con los elementos de la lista productos.
@@ -98,7 +95,7 @@ namespace formularios
         private void ConfigurarListaProductos()
         {
             this.lsb_listaProductos.Items.Clear();
-            foreach (var item in Carniceria.listaProductos)
+            foreach (var item in DB_Carne.Leer_carnes())
             {
                 if (item.CantidadKilos > 0)
                 {

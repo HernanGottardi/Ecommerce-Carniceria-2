@@ -127,31 +127,44 @@ namespace ClasesCarniceria.SQL
 
         public static bool Modificar_Corte(Carne c, string nuevoCorte)
         {
-            
+
             if (Corte_existe(nuevoCorte))
             {
                 if (nuevoCorte.Equals(c.TipoDeCorte))
                 {
-                        try
-                        {
-                            command.Parameters.Clear();
-                            connection.Open();
-                            command.CommandText = $"UPDATE Carne SET Carne.Tipo_de_Corte = @nuevocorte where Carne.Tipo_de_corte = @corte ";
-                            command.Parameters.AddWithValue("@nuevocorte", nuevoCorte);
-                            command.Parameters.AddWithValue("@corte", c.TipoDeCorte);
-                            command.ExecuteNonQuery();
-                            return true;
-                        }
-                        catch (Exception) { throw; }
-                        finally { connection.Close(); }
-                    
+                    try
+                    {
+                        command.Parameters.Clear();
+                        connection.Open();
+                        command.CommandText = $"UPDATE Carne SET Carne.Tipo_de_Corte = @nuevocorte where Carne.Tipo_de_corte = @corte ";
+                        command.Parameters.AddWithValue("@nuevocorte", nuevoCorte);
+                        command.Parameters.AddWithValue("@corte", c.TipoDeCorte);
+                        command.ExecuteNonQuery();
+                        return true;
+                    }
+                    catch (Exception) { throw; }
+                    finally { connection.Close(); }
                 }
-                else 
-                { 
+                else
+                {
                     throw new Exception("El 'nuevo corte' ya existe");
                 }
             }
-            return false;
+            else 
+            {
+                try
+                {
+                    command.Parameters.Clear();
+                    connection.Open();
+                    command.CommandText = $"UPDATE Carne SET Carne.Tipo_de_Corte = @nuevocorte where Carne.Tipo_de_corte = @corte ";
+                    command.Parameters.AddWithValue("@nuevocorte", nuevoCorte);
+                    command.Parameters.AddWithValue("@corte", c.TipoDeCorte);
+                    command.ExecuteNonQuery();
+                    return true;
+                }
+                catch (Exception) { throw; }
+                finally { connection.Close(); }
+            }
         }
 
         public static bool Modificar_precio(Carne c, decimal nuevoPrecio)
