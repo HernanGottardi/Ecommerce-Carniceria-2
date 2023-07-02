@@ -65,6 +65,10 @@ namespace formularios
                     this.txb_detallarProducto.Text = c.Mostrar();
                 }
             }
+            else
+            {
+                MessageBox.Show("Ningun Producto fue seleccionado.");
+            }
         }
 
         private void FrmHeladera_Load(object sender, EventArgs e)
@@ -200,6 +204,10 @@ namespace formularios
                 {
                     this.txb_detallarCliente.Text = c.Detallar();
                 }
+            }
+            else 
+            {
+                MessageBox.Show("Ningun Cliente fue seleccionado.");
             }
         }
         /// <summary>

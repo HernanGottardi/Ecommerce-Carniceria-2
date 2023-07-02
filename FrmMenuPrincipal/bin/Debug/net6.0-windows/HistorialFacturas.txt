@@ -274,13 +274,59 @@ PRECIO FINAL: 6
 ###########################################
 
 ###########################################
-Fecha de la venta: 29/6/2023 17:51:12
-Mail del cliente: LeonelMessi@gmail.com
+Fecha de la venta: 30/6/2023 15:38:01
+Mail del cliente: RicardoFort@hotmail.com
 -------------------------------------------
-Corte de carne elegido: churrasco
-Precio xKg: 1000
-Cantidad de Kilos: 4
+Corte de carne elegido: algo
+Precio xKg: 980
+Cantidad de Kilos: 2
 -------------------------------------------
-PRECIO FINAL: 4000
+PRECIO FINAL: 1960
 ###########################################
+
+###########################################
+Fecha de la venta: 30/6/2023 16:02:01
+Mail del cliente: Maradonaaaa@gmail.com
+-------------------------------------------
+Corte de carne elegido: Carne picada
+Precio xKg: 1100
+Cantidad de Kilos: 5
+-------------------------------------------
+PRECIO FINAL: 5500
+###########################################
+
+###########################################
+Fecha de la venta: 2/7/2023 14:50:24
+Mail del cliente: RicardoFort@hotmail.com
+-------------------------------------------
+Corte de carne elegido: Tira de Asado
+Precio xKg: 2500
+Cantidad de Kilos: 2
+-------------------------------------------
+PRECIO FINAL: 5000
+###########################################
+
+###########################################
+Fecha de la venta: 2/7/2023 14:51:53
+Mail del cliente: RicardoFort@hotmail.com
+-------------------------------------------
+Corte de carne elegido: Tira de Asado
+Precio xKg: 2000
+Cantidad de Kilos: 6
+-------------------------------------------
+PRECIO FINAL: 12000
+###########################################
+
+###########################################
+Fecha de la venta: 2/7/2023 14:52:14
+Mail del cliente: RicardoFort@hotmail.com
+-------------------------------------------
+Corte de carne elegido: Tira de Asado
+Precio xKg: 2000
+Cantidad de Kilos: 1
+-------------------------------------------
+PRECIO FINAL: 2000
+###########################################
+
+
 

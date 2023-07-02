@@ -37,9 +37,13 @@ namespace formularios
                 if (!(string.IsNullOrEmpty(txb_nuevoNombre.Text)))
                 {
                     bool res = DB_Corte.Modificar_corte(this.txb_nuevoNombre.Text, corteSelec);
-                    if (res) 
+                    if (res)
                     {
                         this.DialogResult = DialogResult.OK;
+                    }
+                    else 
+                    {
+                        MessageBox.Show("El corte de carne ya existe.");
                     }
                 }
                 else { MessageBox.Show("Error: Falto ingresar un nuevo nombre para el corte seleccionado."); }

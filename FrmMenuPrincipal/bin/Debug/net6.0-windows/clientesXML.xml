@@ -1,43 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cliente>
-    <Contraseña>12345678</Contraseña>
     <Mail>hernannn@gmail.com</Mail>
-    <CantidadDinero>5000</CantidadDinero>
+    <Contraseña>12345678</Contraseña>
+    <CantidadDinero>3040</CantidadDinero>
   </Cliente>
   <Cliente>
-    <Contraseña>12345678</Contraseña>
     <Mail>Felipeeee@gmail.com</Mail>
-    <CantidadDinero>3000</CantidadDinero>
+    <Contraseña>12345678</Contraseña>
+    <CantidadDinero>194</CantidadDinero>
   </Cliente>
   <Cliente>
-    <Contraseña>12345678</Contraseña>
     <Mail>LeonelMessi@gmail.com</Mail>
-    <CantidadDinero>5000</CantidadDinero>
+    <Contraseña>12345678</Contraseña>
+    <CantidadDinero>0</CantidadDinero>
   </Cliente>
   <Cliente>
-    <Contraseña>12345678</Contraseña>
     <Mail>Maradonaaaa@gmail.com</Mail>
-    <CantidadDinero>20600</CantidadDinero>
+    <Contraseña>12345678</Contraseña>
+    <CantidadDinero>13720</CantidadDinero>
   </Cliente>
   <Cliente>
-    <Contraseña>12345678</Contraseña>
-    <Mail>RicardoFort@gmail.com</Mail>
-    <CantidadDinero>8900</CantidadDinero>
+    <Mail>RicardoFort@hotmail.com</Mail>
+    <Contraseña>chau1234</Contraseña>
+    <CantidadDinero>14483</CantidadDinero>
   </Cliente>
   <Cliente>
-    <Contraseña>12345678</Contraseña>
     <Mail>susanaGimenez@gmail.com</Mail>
+    <Contraseña>12345678</Contraseña>
     <CantidadDinero>34567</CantidadDinero>
   </Cliente>
   <Cliente>
-    <Contraseña>87654321</Contraseña>
     <Mail>homerosimpson@gmail.com</Mail>
+    <Contraseña>87654321</Contraseña>
     <CantidadDinero>4543</CantidadDinero>
   </Cliente>
   <Cliente>
-    <Contraseña>12345678</Contraseña>
     <Mail>steveJobs@gmail.com</Mail>
+    <Contraseña>12345678</Contraseña>
     <CantidadDinero>54356</CantidadDinero>
+  </Cliente>
+  <Cliente>
+    <Mail>cancianinora@gmail.com</Mail>
+    <Contraseña>3041Nora</Contraseña>
+    <CantidadDinero>76876854</CantidadDinero>
   </Cliente>
 </ArrayOfCliente>

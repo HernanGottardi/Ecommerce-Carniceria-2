@@ -1,28 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfCarne xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Carne>
-    <CantidadKilos>10</CantidadKilos>
-    <TipoDeCorte>Lomo</TipoDeCorte>
+    <CantidadKilos>52</CantidadKilos>
+    <TipoDeCorte>Carne picada</TipoDeCorte>
+    <PrecioPorKilo>1100</PrecioPorKilo>
+  </Carne>
+  <Carne>
+    <CantidadKilos>34</CantidadKilos>
+    <TipoDeCorte>paleta</TipoDeCorte>
+    <PrecioPorKilo>2700</PrecioPorKilo>
+  </Carne>
+  <Carne>
+    <CantidadKilos>6</CantidadKilos>
+    <TipoDeCorte>Tapa de asado</TipoDeCorte>
+    <PrecioPorKilo>980</PrecioPorKilo>
+  </Carne>
+  <Carne>
+    <CantidadKilos>3</CantidadKilos>
+    <TipoDeCorte>churrasquito</TipoDeCorte>
     <PrecioPorKilo>400</PrecioPorKilo>
   </Carne>
   <Carne>
-    <CantidadKilos>12</CantidadKilos>
-    <TipoDeCorte>Tira de Asado</TipoDeCorte>
-    <PrecioPorKilo>1200</PrecioPorKilo>
-  </Carne>
-  <Carne>
-    <CantidadKilos>30</CantidadKilos>
-    <TipoDeCorte>Bife ancho</TipoDeCorte>
-    <PrecioPorKilo>200</PrecioPorKilo>
-  </Carne>
-  <Carne>
     <CantidadKilos>10</CantidadKilos>
-    <TipoDeCorte>Falda</TipoDeCorte>
-    <PrecioPorKilo>300</PrecioPorKilo>
+    <TipoDeCorte>Lomo</TipoDeCorte>
+    <PrecioPorKilo>1600</PrecioPorKilo>
   </Carne>
   <Carne>
-    <CantidadKilos>5</CantidadKilos>
+    <CantidadKilos>3</CantidadKilos>
+    <TipoDeCorte>Tira de Asado</TipoDeCorte>
+    <PrecioPorKilo>2000</PrecioPorKilo>
+  </Carne>
+  <Carne>
+    <CantidadKilos>3</CantidadKilos>
+    <TipoDeCorte>Bife ancho</TipoDeCorte>
+    <PrecioPorKilo>700</PrecioPorKilo>
+  </Carne>
+  <Carne>
+    <CantidadKilos>15</CantidadKilos>
+    <TipoDeCorte>Falda</TipoDeCorte>
+    <PrecioPorKilo>690</PrecioPorKilo>
+  </Carne>
+  <Carne>
+    <CantidadKilos>7</CantidadKilos>
     <TipoDeCorte>Cola de cuadril</TipoDeCorte>
-    <PrecioPorKilo>500</PrecioPorKilo>
+    <PrecioPorKilo>700</PrecioPorKilo>
   </Carne>
 </ArrayOfCarne>

@@ -97,7 +97,7 @@ namespace formularios
             this.lsb_listaProductos.Items.Clear();
             foreach (var item in DB_Carne.Leer_carnes())
             {
-                if (item.CantidadKilos > 0)
+                if (item.CantidadKilos >= 0)
                 {
                     this.lsb_listaProductos.Items.Add(item.TipoDeCorte);
                 }
@@ -183,15 +183,11 @@ namespace formularios
 
             if (lsb_listaProductos.SelectedItem is not null)
             {
-
                 string tipoCorte = this.lsb_listaProductos.SelectedItem.ToString();
-                Carne carneSelec = Carniceria.BuscarCarnePorCorte(tipoCorte);
+                Carne carneSelec = DB_Carne.Leer_carne(tipoCorte);
 
-                Vendedor v = new Vendedor();
-                Cliente clienteSelec = v.BuscarClientePorMail(this.Mail);
+                Cliente clienteSelec = DB_Cliente.Leer_cliente(this.Mail);
                 // Los clientes traen un valor por defecto que debe ser modificado por el monto que ingreso el usuario. 
-                clienteSelec.CantidadDinero = this.Monto;
-
 
                 if (carneSelec != null && clienteSelec != null)
                 {
@@ -213,11 +209,11 @@ namespace formularios
                                 if (resForm == DialogResult.OK)
                                 {
                                     // actualizo informacion en cliente y carne.
-                                    carneSelec.CantidadKilos -= cantidadkilos;
-                                    clienteSelec.CantidadDinero -= res;
+                                    int cantidadDeKilosAhora = carneSelec.CantidadKilos - cantidadkilos;
+                                    DB_Carne.Modificar_CantidadKilos(carneSelec, cantidadDeKilosAhora);
                                     this.Monto -= res;
-                                    // actualizo informacion en pantalla.
-                                    //this.rellenarTitulo(this.mail, this.monto);
+                                    DB_Cliente.Modificar_monto_cliente(clienteSelec, this.Monto);
+                                    // Actualizo informacion a la vista del usuario.
                                     this.txb_detalles.Text = carneSelec.Mostrar();
                                     this.ConfigurarListaProductos();
                                 }
@@ -235,18 +231,25 @@ namespace formularios
 
         private void btn_detallar_Click(object sender, EventArgs e)
         {
-            string corteCarne = this.lsb_listaProductos.SelectedItem.ToString();
-            Carne c = Carniceria.BuscarCarnePorCorte(corteCarne);
-            if (c != null)
+            
+            if (this.lsb_listaProductos.SelectedItem != null)
             {
-                this.txb_detalles.Text = c.Mostrar();
+                string corteCarne = this.lsb_listaProductos.SelectedItem.ToString();
+                Carne c = DB_Carne.Leer_carne(corteCarne);
+                if (c != null)
+                {
+                    this.txb_detalles.Text = c.Mostrar();
+                }
+            }
+            else 
+            {
+                MessageBox.Show("Ningun producto fue seleecionado.");
             }
         }
 
         private void modificarCorreoElectronicoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmModificarMail form = new FrmModificarMail(Mail);
-
 
             DialogResult res = form.ShowDialog();
             if (res == DialogResult.OK)
