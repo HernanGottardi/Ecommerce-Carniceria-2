@@ -18,35 +18,42 @@ namespace formularios
 
             if (this.lsb_listaProductos.SelectedItem != null)
             {
-                string tipoDeCorteABuscar = this.lsb_listaProductos.SelectedItem.ToString();
-
-                Carne c = DB_Carne.Leer_carne(tipoDeCorteABuscar);
-
-                if (c != null)
+                if (this.cb_tipoCorte.SelectedItem != null)
                 {
-                    string tipoDeCorte = this.cb_tipoCorte.Text.ToString();
-                    decimal precioPorKilo = this.nud_precioKilo.Value;
-                    int cantidadKilos = (int)this.nud_cantidadKilos.Value;
+                    string tipoDeCorteABuscar = this.lsb_listaProductos.SelectedItem.ToString();
 
-                    if (tipoDeCorte != null && precioPorKilo > 0 && cantidadKilos > 0)
+                    Carne c = DB_Carne.Leer_carne(tipoDeCorteABuscar);
+
+                    if (c != null)
                     {
-                        try 
+                        string tipoDeCorte = this.cb_tipoCorte.Text.ToString();
+                        decimal precioPorKilo = this.nud_precioKilo.Value;
+                        int cantidadKilos = (int)this.nud_cantidadKilos.Value;
+
+                        if (tipoDeCorte != null && precioPorKilo > 0 && cantidadKilos > 0)
                         {
-                            DB_Carne.Modificar_Corte(c, tipoDeCorte);
-                            DB_Carne.Modificar_precio(c, precioPorKilo);
-                            DB_Carne.Modificar_CantidadKilos(c, cantidadKilos);
-                            configurarListBoxProductos();
-                            this.DialogResult = DialogResult.OK;
+                            try
+                            {
+                                DB_Carne.Modificar_Corte(c, tipoDeCorte);
+                                DB_Carne.Modificar_precio(c, precioPorKilo);
+                                DB_Carne.Modificar_CantidadKilos(c, cantidadKilos);
+                                configurarListBoxProductos();
+                                this.DialogResult = DialogResult.OK;
+                            }
+                            catch (Exception ex)
+                            {
+                                MessageBox.Show(ex.Message);
+                            }
                         }
-                        catch(Exception ex) 
+                        else
                         {
-                            MessageBox.Show(ex.Message);
+                            MessageBox.Show("Error: Alguna opcion no fue bien seleccionada.");
                         }
                     }
-                    else
-                    {
-                        MessageBox.Show("Error: Alguna opcion no fue bien seleccionada.");
-                    }
+                }
+                else
+                {
+                    MessageBox.Show("Error: No seleccionaste un nuevo tipo de corte.");
                 }
             }
             else
@@ -90,7 +97,7 @@ namespace formularios
             {
                 string tipoDeCorteSelec = this.lsb_listaProductos.SelectedItem.ToString();
                 Carne c = DB_Carne.Leer_carne(tipoDeCorteSelec);
-                if (c != null) 
+                if (c != null)
                 {
                     this.txb_detallarProducto.Text = c.Mostrar();
                 }
