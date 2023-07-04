@@ -28,7 +28,7 @@ namespace formularios
         private void btn_modificar_Click(object sender, EventArgs e)
         {
 
-            if (decimal.TryParse(txb_nuevoMonto.Text, out this.nuevoMonto) && this.nuevoMonto != 0)
+            if (decimal.TryParse(txb_nuevoMonto.Text, out this.nuevoMonto) && this.nuevoMonto > 0)
             {
                 try
                 {

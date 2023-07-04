@@ -39,7 +39,7 @@ namespace formularios
                 string saldoStr = this.tx_saldo.Text;
                 bool resp = decimal.TryParse(saldoStr, out decimal saldoDec);
 
-                if (resp == true)
+                if (resp == true && saldoDec > 0)
                 {
                     // Cambio su monto.
                     Cliente c = DB_Cliente.Leer_cliente(email, contra);
