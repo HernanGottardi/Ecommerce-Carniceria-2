@@ -6,6 +6,7 @@ namespace formularios
     public partial class FrmAgregarCorte : Form
     {
         private string nuevoCorte;
+        private bool criterioEspacios;
         public FrmAgregarCorte()
         {
             InitializeComponent();
@@ -22,7 +23,8 @@ namespace formularios
         private void btn_aceptar_Click_1(object sender, EventArgs e)
         {
             this.NuevoCorte = this.txb_agregarCorteNuevo.Text.ToString();
-            if (!(string.IsNullOrWhiteSpace(NuevoCorte)))
+            criterioEspacios = this.NuevoCorte.Contains(" ");
+            if (!(string.IsNullOrWhiteSpace(NuevoCorte)) && !criterioEspacios)
             {
                 if (!DB_Corte.Corte_existe(nuevoCorte))
                 {

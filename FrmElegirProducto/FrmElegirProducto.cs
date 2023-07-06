@@ -178,55 +178,99 @@ namespace formularios
         }
 
 
+        // Banderita para verificar si se cancelo una compra previa
+        private bool compraCancelada = false;
+
         private void btn_comprar_Click(object sender, EventArgs e)
         {
-
-            if (lsb_listaProductos.SelectedItem is not null)
+            if (compraCancelada)
             {
-                string tipoCorte = this.lsb_listaProductos.SelectedItem.ToString();
-                Carne carneSelec = DB_Carne.Leer_carne(tipoCorte);
-
-                Cliente clienteSelec = DB_Cliente.Leer_cliente(this.Mail);
-                // Los clientes traen un valor por defecto que debe ser modificado por el monto que ingreso el usuario. 
-
-                if (carneSelec != null && clienteSelec != null)
+                // Verificar si el campo de cantidad de kilos está vacío
+                if (string.IsNullOrEmpty(nud_cantidadKilos.Text))
                 {
-                    int cantidadkilos = (int)this.nud_cantidadKilos.Value;
-
-                    if (cantidadkilos != -1 && cantidadkilos <= carneSelec.CantidadKilos && cantidadkilos != 0)
-                    {
-                        decimal precio = carneSelec.PrecioPorKilo * cantidadkilos;
-
-                        if (cb_formasDePago.SelectedItem != null)
-                        {
-                            FormasDePago forma = (FormasDePago)Enum.Parse(typeof(FormasDePago), this.cb_formasDePago.SelectedItem.ToString());
-
-                            decimal res = this.ValidarPuedePagar(clienteSelec, precio, forma);
-                            if (res >= 0)
-                            {
-                                FrmFactura form = new FrmFactura(forma, tipoCorte, cantidadkilos, carneSelec.PrecioPorKilo, res);
-                                DialogResult resForm = form.ShowDialog();
-                                if (resForm == DialogResult.OK)
-                                {
-                                    // actualizo informacion en cliente y carne.
-                                    int cantidadDeKilosAhora = carneSelec.CantidadKilos - cantidadkilos;
-                                    DB_Carne.Modificar_CantidadKilos(carneSelec, cantidadDeKilosAhora);
-                                    this.Monto -= res;
-                                    DB_Cliente.Modificar_monto_cliente(clienteSelec, this.Monto);
-                                    // Actualizo informacion a la vista del usuario.
-                                    this.txb_detalles.Text = carneSelec.Mostrar();
-                                    this.ConfigurarListaProductos();
-                                }
-                            }
-                            else { MessageBox.Show("Error: El precio supera el monto del usuario."); }
-                        }
-                        else { MessageBox.Show("Error: Tenes que seleccionar un tipo de pago."); }
-                    }
-                    else { MessageBox.Show("Error: La cantidad de kilos no puede ser 0 o mayor a la cantidad fijada."); }
+                    MessageBox.Show("Error: Debes ingresar la cantidad de kilos.");
+                    return;
                 }
             }
-            else { MessageBox.Show("Error: Tenes que seleccionar un producto."); }
+
+            if (lsb_listaProductos.SelectedItem is null)
+            {
+                MessageBox.Show("Error: Tenes que seleccionar un producto.");
+                return;
+            }
+
+            string tipoCorte = lsb_listaProductos.SelectedItem.ToString();
+            Carne carneSelec = DB_Carne.Leer_carne(tipoCorte);
+
+            if (carneSelec is null)
+            {
+                MessageBox.Show("Error: Producto no encontrado.");
+                return;
+            }
+
+            Cliente clienteSelec = DB_Cliente.Leer_cliente(Mail);
+            if (clienteSelec is null)
+            {
+                MessageBox.Show("Error: Cliente no encontrado.");
+                return;
+            }
+
+            int cantidadkilos = 0;
+
+            if (!string.IsNullOrEmpty(nud_cantidadKilos.Text))
+            {
+                cantidadkilos = Convert.ToInt32(nud_cantidadKilos.Value);
+            }
+
+            if (cantidadkilos <= 0)
+            {
+                MessageBox.Show("Error: La cantidad de kilos no puede ser 0.");
+                return;
+            }
+
+            if (cantidadkilos > carneSelec.CantidadKilos)
+            {
+                MessageBox.Show("Error: La cantidad de kilos no puede ser mayor a la cantidad fijada.");
+                return;
+            }
+
+            decimal precio = carneSelec.PrecioPorKilo * cantidadkilos;
+
+            if (cb_formasDePago.SelectedItem is null)
+            {
+                MessageBox.Show("Error: Tenes que seleccionar un tipo de pago.");
+                return;
+            }
+
+            FormasDePago forma = (FormasDePago)Enum.Parse(typeof(FormasDePago), cb_formasDePago.SelectedItem.ToString());
+
+            decimal res = ValidarPuedePagar(clienteSelec, precio, forma);
+            if (res < 0)
+            {
+                MessageBox.Show("Error: El precio supera el monto del usuario.");
+                return;
+            }
+
+            FrmFactura form = new FrmFactura(forma, tipoCorte, cantidadkilos, carneSelec.PrecioPorKilo, res);
+            DialogResult resForm = form.ShowDialog();
+            if (resForm == DialogResult.OK)
+            {
+                // actualizo informacion en cliente y carne.
+                int cantidadDeKilosAhora = carneSelec.CantidadKilos - cantidadkilos;
+                DB_Carne.Modificar_CantidadKilos(carneSelec, cantidadDeKilosAhora);
+                Monto -= res;
+                DB_Cliente.Modificar_monto_cliente(clienteSelec, Monto);
+                // Actualizo informacion a la vista del usuario.
+                txb_detalles.Text = carneSelec.Mostrar();
+                ConfigurarListaProductos();
+            }
+            else
+            {
+                // Se canceló la compra, establecer la variable de control en true
+                compraCancelada = true;
+            }
         }
+
 
 
         private void btn_detallar_Click(object sender, EventArgs e)

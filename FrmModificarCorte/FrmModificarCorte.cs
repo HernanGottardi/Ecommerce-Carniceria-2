@@ -36,14 +36,21 @@ namespace formularios
                 // modifico.
                 if (!(string.IsNullOrEmpty(txb_nuevoNombre.Text)))
                 {
-                    bool res = DB_Corte.Modificar_corte(this.txb_nuevoNombre.Text, corteSelec);
-                    if (res)
+                    if (!txb_nuevoNombre.Text.Contains(" "))
                     {
-                        this.DialogResult = DialogResult.OK;
+                        bool res = DB_Corte.Modificar_corte(this.txb_nuevoNombre.Text, corteSelec);
+                        if (res)
+                        {
+                            this.DialogResult = DialogResult.OK;
+                        }
+                        else
+                        {
+                            MessageBox.Show("El corte de carne ya existe.");
+                        }
                     }
                     else 
                     {
-                        MessageBox.Show("El corte de carne ya existe.");
+                        MessageBox.Show("Error: El nuevo Corte tiene espacios");
                     }
                 }
                 else { MessageBox.Show("Error: Falto ingresar un nuevo nombre para el corte seleccionado."); }
